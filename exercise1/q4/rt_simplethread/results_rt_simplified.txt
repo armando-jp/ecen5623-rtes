@@ -1,0 +1,18 @@
+This system has 4 processors with 4 available
+The test thread created will be SCHED_FIFO is run with sudo and will be run on least busy core
+Pthread Policy is SCHED_OTHER
+PTHREAD SCOPE SYSTEM
+Pthread Policy is SCHED_FIFO
+PTHREAD SCOPE SYSTEM
+rt_max_prio=99
+rt_min_prio=1
+
+Thread idx=0 ran 11 sec, 381 msec (381958 microsec, 381958997 nsec) on core=0
+
+Thread idx=1 ran 11 sec, 381 msec (381869 microsec, 381869150 nsec) on core=2
+
+Thread idx=2 ran 11 sec, 381 msec (381775 microsec, 381775242 nsec) on core=3
+
+Thread idx=3 ran 11 sec, 381 msec (381581 microsec, 381581904 nsec) on core=1
+
+TEST COMPLETE

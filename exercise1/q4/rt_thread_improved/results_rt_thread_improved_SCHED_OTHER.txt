@@ -1,0 +1,22 @@
+This system has 4 processors with 4 available
+The test thread created will be run on a specific core based on thread index
+Pthread Policy is SCHED_OTHER
+PTHREAD SCOPE SYSTEM
+Pthread Policy is SCHED_OTHER
+PTHREAD SCOPE SYSTEM
+rt_max_prio=99
+rt_min_prio=1
+Setting thread 0 to core 0
+Setting thread 1 to core 1
+Setting thread 2 to core 2
+Setting thread 3 to core 3
+
+Thread idx=1 ran 10 sec, 553 msec (553294 microsec, 553294878 nsec) on core=1
+
+Thread idx=3 ran 10 sec, 553 msec (553013 microsec, 553013936 nsec) on core=3
+
+Thread idx=0 ran 10 sec, 552 msec (552970 microsec, 552970811 nsec) on core=0
+
+Thread idx=2 ran 10 sec, 551 msec (551705 microsec, 551705790 nsec) on core=2
+
+TEST COMPLETE
