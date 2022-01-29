@@ -16,7 +16,7 @@
 //
 // With the above, priorities by RM policy would be:
 //
-// Sequencer = RT_MAX	@ 100 Hz
+// Sequencer = RT_MAX	@ 1000 Hz
 // Servcie_1 = RT_MAX-1	@ 50 Hz
 // Service_2 = RT_MAX-2	@ 20 Hz
 //
@@ -159,7 +159,7 @@ void main(void)
         rc=pthread_attr_init(&rt_sched_attr[i]);
         rc=pthread_attr_setinheritsched(&rt_sched_attr[i], PTHREAD_EXPLICIT_SCHED);
         rc=pthread_attr_setschedpolicy(&rt_sched_attr[i], SCHED_FIFO);
-        //rc=pthread_attr_setaffinity_np(&rt_sched_attr[i], sizeof(cpu_set_t), &threadcpu);
+        rc=pthread_attr_setaffinity_np(&rt_sched_attr[i], sizeof(cpu_set_t), &threadcpu);
 
         rt_param[i].sched_priority=rt_max_prio-i;
         pthread_attr_setschedparam(&rt_sched_attr[i], &rt_param[i]);
@@ -284,7 +284,7 @@ void *Scheduler(void *threadp)
         // We get to this point when a sequencer period has completed.
         // We therefore increment seqQnt upon completion and log the time at
         // which it occured.
-        seqCnt++;
+        // seqCnt++;
         gettimeofday(&current_time_val, (struct timezone *)0);
         // syslog(LOG_CRIT, "Sequencer cycle %llu @ sec=%d, msec=%d\n", seqCnt, (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
         // Also log the looping delay if any.s
@@ -302,6 +302,8 @@ void *Scheduler(void *threadp)
 
         // Service_2 = RT_MAX-2	@ 20 Hz
         if((seqCnt % 50) == 0) sem_post(&semS2);
+
+        seqCnt++;
 
         //gettimeofday(&current_time_val, (struct timezone *)0);
         //syslog(LOG_CRIT, "Sequencer release all sub-services @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
@@ -440,4 +442,3 @@ void *Fib20(void *threadp)
 
     pthread_exit((void *)0);
 }
-
