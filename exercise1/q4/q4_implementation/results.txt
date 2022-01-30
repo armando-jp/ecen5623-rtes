@@ -1,0 +1,134 @@
+Jan 29 09:26:59 raspberrypi a.out: Sequencer @ sec=0, msec=794
+Jan 29 09:26:59 raspberrypi a.out: FIB10 START @ sec=0, msec=795
+Jan 29 09:26:59 raspberrypi a.out: FIB20 START @ sec=0, msec=795
+Jan 29 09:26:59 raspberrypi a.out: Scheduler thread @ sec=0, msec=795
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=796
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 1 @ sec=0, msec=806
+Jan 29 09:26:59 raspberrypi a.out: FIB20 GET @ sec=0, msec=806
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=817
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 2 @ sec=0, msec=827
+Jan 29 09:26:59 raspberrypi a.out: FIB20 RELEASE 1 @ sec=0, msec=836
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=837
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 3 @ sec=0, msec=847
+Jan 29 09:26:59 raspberrypi a.out: FIB20 GET @ sec=0, msec=848
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=858
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 4 @ sec=0, msec=868
+Jan 29 09:26:59 raspberrypi a.out: FIB20 RELEASE 2 @ sec=0, msec=878
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=878
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 5 @ sec=0, msec=889
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=899
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 6 @ sec=0, msec=909
+Jan 29 09:26:59 raspberrypi a.out: FIB20 GET @ sec=0, msec=909
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=920
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 7 @ sec=0, msec=930
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=940
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 8 @ sec=0, msec=950
+Jan 29 09:26:59 raspberrypi a.out: FIB20 RELEASE 3 @ sec=0, msec=951
+Jan 29 09:26:59 raspberrypi a.out: FIB20 GET @ sec=0, msec=951
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=961
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 9 @ sec=0, msec=971
+Jan 29 09:26:59 raspberrypi a.out: FIB10 GET @ sec=0, msec=982
+Jan 29 09:26:59 raspberrypi a.out: FIB10 RELEASE 10 @ sec=0, msec=991
+Jan 29 09:26:59 raspberrypi a.out: FIB20 RELEASE 4 @ sec=0, msec=992
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=2
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 11 @ sec=1, msec=12
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=12
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=22
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 12 @ sec=1, msec=32
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 5 @ sec=1, msec=41
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=43
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 13 @ sec=1, msec=52
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=53
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=63
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 14 @ sec=1, msec=73
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 6 @ sec=1, msec=83
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=83
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 15 @ sec=1, msec=93
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=104
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 16 @ sec=1, msec=113
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=113
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=124
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 17 @ sec=1, msec=134
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 7 @ sec=1, msec=143
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=144
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 18 @ sec=1, msec=154
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=155
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=165
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 19 @ sec=1, msec=174
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 8 @ sec=1, msec=184
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=185
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 20 @ sec=1, msec=195
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=206
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 21 @ sec=1, msec=215
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=215
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=226
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 22 @ sec=1, msec=235
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 9 @ sec=1, msec=245
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=246
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 23 @ sec=1, msec=256
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=256
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=267
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 24 @ sec=1, msec=276
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 10 @ sec=1, msec=286
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=287
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 25 @ sec=1, msec=297
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=307
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 26 @ sec=1, msec=317
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=317
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=328
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 27 @ sec=1, msec=337
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 11 @ sec=1, msec=347
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=348
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 28 @ sec=1, msec=358
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=358
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=369
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 29 @ sec=1, msec=378
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 12 @ sec=1, msec=388
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=389
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 30 @ sec=1, msec=398
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=409
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 31 @ sec=1, msec=419
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=419
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=430
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 32 @ sec=1, msec=440
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 13 @ sec=1, msec=450
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=450
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 33 @ sec=1, msec=460
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=460
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=471
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 34 @ sec=1, msec=480
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 14 @ sec=1, msec=490
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=491
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 35 @ sec=1, msec=500
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=511
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 36 @ sec=1, msec=521
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=521
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=532
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 37 @ sec=1, msec=541
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 15 @ sec=1, msec=550
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=552
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 38 @ sec=1, msec=561
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=562
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=572
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 39 @ sec=1, msec=582
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 16 @ sec=1, msec=591
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=592
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 40 @ sec=1, msec=602
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=613
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 41 @ sec=1, msec=622
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=622
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=633
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 42 @ sec=1, msec=642
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 17 @ sec=1, msec=652
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=653
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 43 @ sec=1, msec=663
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=664
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=674
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 44 @ sec=1, msec=683
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 18 @ sec=1, msec=693
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=694
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 45 @ sec=1, msec=703
+Jan 29 09:27:00 raspberrypi a.out: FIB10 GET @ sec=1, msec=714
+Jan 29 09:27:00 raspberrypi a.out: FIB10 RELEASE 46 @ sec=1, msec=723
+Jan 29 09:27:00 raspberrypi a.out: FIB20 GET @ sec=1, msec=723
+Jan 29 09:27:00 raspberrypi a.out: FIB20 RELEASE 19 @ sec=1, msec=743

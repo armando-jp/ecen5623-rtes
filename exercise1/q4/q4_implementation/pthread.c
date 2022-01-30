@@ -27,7 +27,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-
+#include <sys/mman.h>
 #include <pthread.h>
 #include <sched.h>
 #include <time.h>
@@ -44,6 +44,22 @@
 #define NUM_THREADS (2+1)
 #define TRUE (1)
 #define FALSE (0)
+
+#define INFO_LOG(...) \
+do {    \
+    syslog(LOG_INFO, ##__VA_ARGS__); \
+}while(0)
+
+#define ERR_LOG(...) \
+do {    \
+    syslog(LOG_ERR, ##__VA_ARGS__); \
+}while(0)
+
+#define CRIT_LOG(...) \
+do {    \
+    syslog(LOG_CRIT, ##__VA_ARGS__); \
+}while(0)
+
 
 // variables to termiante running tasks
 int abortTest=FALSE;
@@ -63,6 +79,7 @@ typedef struct
 {
     int threadIdx;
     unsigned long long sequencePeriods;
+    const char *threadName;
 } threadParams_t;
 
 // function declerations
@@ -73,6 +90,12 @@ void print_scheduler(void);
 
 void main(void)
 {
+    /* Lock memory */
+    if(mlockall(MCL_CURRENT|MCL_FUTURE) == -1) {
+        printf("mlockall failed: %m\n");
+        exit(-2);
+    }
+
     struct timeval current_time_val;
     int i, rc, scope;
     cpu_set_t threadcpu;
@@ -168,9 +191,10 @@ void main(void)
     }
     printf("Service threads will run on %d CPU cores\n", CPU_COUNT(&threadcpu));
 
-
-
-
+    // Update thread names
+    threadParams[0].threadName = "Scheduler";
+    threadParams[1].threadName = "Thread10";
+    threadParams[2].threadName = "Thread20";
 
     // We now create service threads which will block
 
@@ -247,9 +271,8 @@ void *Scheduler(void *threadp)
 
     // Display elapsed time
     gettimeofday(&current_time_val, (struct timezone *)0);
-    syslog(LOG_CRIT, "Scheduler thread @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-    printf("Scheduler thread @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-
+    CRIT_LOG("Scheduler thread @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
+    
     // Enter main Scheduler loop
     // This loop is termianted when either abortTest is set to TRUE and 
     // the seqCnt reaches the specified limit (for now it is 900)
@@ -260,7 +283,7 @@ void *Scheduler(void *threadp)
         // This secondary while loop is for sleeping the specified period time
         // (1 msec). 
         do
-        {
+        { 
             rc=nanosleep(&delay_time, &remaining_time);
 
             // Check if we were interrupted by a signal.
@@ -269,13 +292,13 @@ void *Scheduler(void *threadp)
             { 
                 residual = remaining_time.tv_sec + ((double)remaining_time.tv_nsec / (double)NANOSEC_PER_SEC);
 
-                if(residual > 0.0) printf("residual=%lf, sec=%d, nsec=%d\n", residual, (int)remaining_time.tv_sec, (int)remaining_time.tv_nsec);
+                if(residual > 0.0) INFO_LOG("residual=%lf, sec=%d, nsec=%d\n", residual, (int)remaining_time.tv_sec, (int)remaining_time.tv_nsec);
  
                 delay_cnt++;
             }
             else if(rc < 0)
             {
-                perror("Sequencer nanosleep");
+                ERR_LOG("Sequencer nanosleep");
                 exit(-1);
             }
            
@@ -285,17 +308,11 @@ void *Scheduler(void *threadp)
         // We therefore increment seqQnt upon completion and log the time at
         // which it occured.
         // seqCnt++;
-        gettimeofday(&current_time_val, (struct timezone *)0);
-        // syslog(LOG_CRIT, "Sequencer cycle %llu @ sec=%d, msec=%d\n", seqCnt, (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-        // Also log the looping delay if any.s
-        if(delay_cnt > 1) printf("Sequencer looping delay %d\n", delay_cnt);
-
-
-
+      
+        if(delay_cnt > 1) INFO_LOG("Sequencer looping delay %d\n", delay_cnt);
 
 
         // Release each service at a sub-rate of the generic sequencer rate
-        //
 
         // Servcie_1 = RT_MAX-1	@ 50 Hz
         if((seqCnt % 20) == 0) sem_post(&semS1);
@@ -305,7 +322,7 @@ void *Scheduler(void *threadp)
 
         seqCnt++;
 
-        //gettimeofday(&current_time_val, (struct timezone *)0);
+        // gettimeofday(&current_time_val, (struct timezone *)0);
         //syslog(LOG_CRIT, "Sequencer release all sub-services @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
 
     } while(!abortTest && (seqCnt < threadParams->sequencePeriods));
@@ -342,6 +359,20 @@ void print_scheduler(void)
    }
 }
 
+#define FIB_TEST(seqCnt, iterCnt)      \
+   for(idx=0; idx < iterCnt; idx++)    \
+   {                                   \
+      fib = fib0 + fib1;               \
+      while(jdx < seqCnt)              \
+      {                                \
+         fib0 = fib1;                  \
+         fib1 = fib;                   \
+         fib = fib0 + fib1;            \
+         jdx++;                        \
+      }                                \
+   }                                   \
+
+
 // 10 MSEC LONG
 void *Fib10(void *threadp)
 {
@@ -354,40 +385,31 @@ void *Fib10(void *threadp)
     // FIB PARAMS
     unsigned int idx = 0, jdx = 1;
     unsigned int seqCnt = 40;
-    unsigned int iterCnt = 16500;
+    unsigned int iterCnt = 550000;//16500; 
     volatile unsigned int fib = 0, fib0 = 0, fib1 = 1;
 
-    gettimeofday(&current_time_val, (struct timezone *)0);
-    syslog(LOG_CRIT, "FIB10 START @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-    printf("FIB10 START @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
+    // Warm the cache
+    // FIB_TEST(seqCnt, iterCnt);
 
     while(!abortS1)
     {
         sem_wait(&semS1);
-        ++S1Cnt;
-        gettimeofday(&current_time_val, (struct timezone *)0);
-        syslog(LOG_CRIT, "FIB10 GET @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-        printf("FIB10 GET @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-        // Computation START
-        for(idx=0; idx < iterCnt; idx++)
-        {
-            fib = fib0 + fib1;
-            while(jdx < seqCnt)
-            { 
-                fib0 = fib1;
-                fib1 = fib;
-                fib = fib0 + fib1;
-                jdx++;
-            }
+        // ++S1Cnt;
 
-            jdx=0;
-        }
+        gettimeofday(&current_time_val, (struct timezone *)0);
+       
+        INFO_LOG("%s START @ sec=%ld, msec=%ld\n", threadParams->threadName, \
+         (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
+        
+        // Computation START
+        FIB_TEST(seqCnt, iterCnt);
         // Computation END
 
         // Display time at which computation completed
         gettimeofday(&current_time_val, (struct timezone *)0);
-        syslog(LOG_CRIT, "FIB10 RELEASE %llu @ sec=%d, msec=%d\n", S1Cnt, (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-        printf("FIB10 RELEASE %llu @ sec=%d, msec=%d\n", S1Cnt, (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
+        INFO_LOG("%s END @ sec=%ld, msec=%ld\n", threadParams->threadName, \
+        (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
+       
     }
 
     pthread_exit((void *)0);
@@ -405,39 +427,27 @@ void *Fib20(void *threadp)
     // FIB PARAMS
     unsigned int idx = 0, jdx = 1;
     unsigned int seqCnt = 47;
-    unsigned int iterCnt = 30000;
+    unsigned int iterCnt = 1100000;//30000;
     volatile unsigned int fib = 0, fib0 = 0, fib1 = 1;
 
-    gettimeofday(&current_time_val, (struct timezone *)0);
-    syslog(LOG_CRIT, "FIB20 START @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-    printf("FIB20 START @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
+    // Warm the cache
+    // FIB_TEST(seqCnt, iterCnt);
 
     while(!abortS2)
     {
         sem_wait(&semS2);
-        ++S2Cnt;
+        // ++S2Cnt;
         gettimeofday(&current_time_val, (struct timezone *)0);
-        syslog(LOG_CRIT, "FIB20 GET @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-        printf("FIB20 GET @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
+        INFO_LOG("%s START @ sec=%ld, msec=%ld\n", threadParams->threadName, \
+        (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
+        
         // Computation START
-        for(idx=0; idx < iterCnt; idx++)
-        {
-            fib = fib0 + fib1;
-            while(jdx < seqCnt)
-            { 
-                fib0 = fib1;
-                fib1 = fib;
-                fib = fib0 + fib1;
-                jdx++;
-            }
-
-            jdx=0;
-        }
+        FIB_TEST(seqCnt, iterCnt);
         // Computation END
 
         gettimeofday(&current_time_val, (struct timezone *)0);
-        syslog(LOG_CRIT, "FIB20 RELEASE %llu @ sec=%d, msec=%d\n", S2Cnt, (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
-        printf("FIB20 RELEASE %llu @ sec=%d, msec=%d\n", S2Cnt, (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
+        INFO_LOG("%s  END @ sec=%ld, msec=%ld\n", threadParams->threadName, \
+         (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
     }
 
     pthread_exit((void *)0);
