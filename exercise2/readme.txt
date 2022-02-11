@@ -1,5 +1,132 @@
-These examples are from the RTECS textbook, p. 84 - p. 89
-Can be compiled with any C compiler and run in most any environment, but the examples were created and tested on Linux.
+******** Completion Test Feasibility Example
+Ex-0 U=73.33% (C1=1, C2=1, C3=2; T1=2, T2=10, T3=15; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=2.000000, utility_sum = 0.500000
+for 1, wcet=1.000000, period=10.000000, utility_sum = 0.600000
+for 2, wcet=2.000000, period=15.000000, utility_sum = 0.733333
+===LUB STATS===
+For 3, Utility_sum = 0.733333
+LUB = 0.779763
+RM LUB: FEASIBLE
+CTF   : FEASIBLE
+SPF   : FEASIBLE
+LLF   : FEASIBLE
+EDF   : FEASIBLE
 
-The idea is to add to these examples and compare them to Cheddar, to your hand analysis of scenarios, and to consider
-different methods to implement an exact feasibility analysis and test for fixed priority rate monotonic policy.
+Ex-1 U=98.57% (C1=1, C2=1, C3=2; T1=2, T2=5, T3=7; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=2.000000, utility_sum = 0.500000
+for 1, wcet=1.000000, period=5.000000, utility_sum = 0.700000
+for 2, wcet=2.000000, period=7.000000, utility_sum = 0.985714
+===LUB STATS===
+For 3, Utility_sum = 0.985714
+LUB = 0.779763
+RM LUB: INFEASIBLE
+CTF   : INFEASIBLE
+SPF   : INFEASIBLE
+LLF   : FEASIBLE
+EDF   : FEASIBLE
+
+Ex-2 U=99.67% (C1=1, C2=1, C3=1, C4=2; T1=2, T2=5, T3=7, T4=13; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=2.000000, utility_sum = 0.500000
+for 1, wcet=1.000000, period=5.000000, utility_sum = 0.700000
+for 2, wcet=1.000000, period=7.000000, utility_sum = 0.842857
+for 3, wcet=2.000000, period=13.000000, utility_sum = 0.996703
+===LUB STATS===
+For 4, Utility_sum = 0.996703
+LUB = 0.756828
+RM LUB: INFEASIBLE
+CTF   : INFEASIBLE
+SPF   : INFEASIBLE
+LLF   : FEASIBLE
+EDF   : FEASIBLE
+
+Ex-3 U=93.33% (C1=1, C2=2, C3=3; T1=3, T2=5, T3=15; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=3.000000, utility_sum = 0.333333
+for 1, wcet=2.000000, period=5.000000, utility_sum = 0.733333
+for 2, wcet=3.000000, period=15.000000, utility_sum = 0.933333
+===LUB STATS===
+For 3, Utility_sum = 0.933333
+LUB = 0.779763
+RM LUB: INFEASIBLE
+CTF   : FEASIBLE
+SPF   : FEASIBLE
+LLF   : FEASIBLE
+EDF   : FEASIBLE
+
+Ex-4 U=100.00% (C1=1, C2=1, C3=4; T1=2, T2=4, T3=16; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=2.000000, utility_sum = 0.500000
+for 1, wcet=1.000000, period=4.000000, utility_sum = 0.750000
+for 2, wcet=4.000000, period=16.000000, utility_sum = 1.000000
+===LUB STATS===
+For 3, Utility_sum = 1.000000
+LUB = 0.779763
+RM LUB: INFEASIBLE
+CTF   : FEASIBLE
+SPF   : FEASIBLE
+LLF   : FEASIBLE
+EDF   : FEASIBLE
+
+Ex-5 U=100.00% (C1=1, C2=2, C3=1; T1=2, T2=5, T3=10; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=2.000000, utility_sum = 0.500000
+for 1, wcet=2.000000, period=5.000000, utility_sum = 0.900000
+for 2, wcet=1.000000, period=10.000000, utility_sum = 1.000000
+===LUB STATS===
+For 3, Utility_sum = 1.000000
+LUB = 0.779763
+RM LUB: INFEASIBLE
+CTF   : FEASIBLE
+SPF   : FEASIBLE
+LLF   : FEASIBLE
+EDF   : FEASIBLE
+
+Ex-6 U=99.67% (C1=1, C2=1, C3=1, C4=2; T1=2, T2=5, T3=7, T4=13; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=2.000000, utility_sum = 0.500000
+for 1, wcet=1.000000, period=5.000000, utility_sum = 0.700000
+for 2, wcet=1.000000, period=7.000000, utility_sum = 0.842857
+for 3, wcet=2.000000, period=13.000000, utility_sum = 0.996703
+===LUB STATS===
+For 4, Utility_sum = 0.996703
+LUB = 0.756828
+RM LUB: INFEASIBLE
+CTF   : INFEASIBLE
+SPF   : INFEASIBLE
+LLF   : FEASIBLE
+EDF   : FEASIBLE
+
+Ex-7 U=104.10% (C1=1, C2=2, C3=4; T1=3, T2=5, T3=13; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=3.000000, utility_sum = 0.333333
+for 1, wcet=2.000000, period=5.000000, utility_sum = 0.733333
+for 2, wcet=4.000000, period=13.000000, utility_sum = 1.041026
+===LUB STATS===
+For 3, Utility_sum = 1.041026
+LUB = 0.779763
+RM LUB: INFEASIBLE
+CTF   : INFEASIBLE
+SPF   : INFEASIBLE
+LLF   : FEASIBLE
+EDF   : INFEASIBLE
+
+Ex-8 U=99.67% (C1=1, C2=1, C3=1, C4=2; T1=2, T2=5, T3=7, T4=13; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=2.000000, utility_sum = 0.500000
+for 1, wcet=1.000000, period=5.000000, utility_sum = 0.700000
+for 2, wcet=1.000000, period=7.000000, utility_sum = 0.842857
+for 3, wcet=2.000000, period=13.000000, utility_sum = 0.996703
+===LUB STATS===
+For 4, Utility_sum = 0.996703
+LUB = 0.756828
+RM LUB: INFEASIBLE
+CTF   : INFEASIBLE
+SPF   : INFEASIBLE
+LLF   : FEASIBLE
+EDF   : FEASIBLE
+
+
+
