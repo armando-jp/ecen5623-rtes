@@ -412,10 +412,10 @@ int earliest_deadline_first(U32_T numServices, U32_T period[], U32_T wcet[], U32
          
          //printf("SERVICE_%d LAXITY=%d\n", idx+1, ll_val_current);
 
-         // if the time remaining until the deadline is greater than the
+         // if the time remaining until the deadline is less than the
          // remaining computation time for the task, then the task will fail to
          // meet it's deadline. 
-         if(ed_val_current > (wcet[idx] - et_so_far[idx]))
+         if(ed_val_current < (wcet[idx] - et_so_far[idx]))
          {
             // printf("Failed on service %d\n", idx+1);
             return FALSE;
