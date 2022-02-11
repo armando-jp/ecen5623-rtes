@@ -93,8 +93,8 @@ U32_T ex8_wcet[] = {1, 1, 1, 2};
 int completion_time_feasibility(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
 int scheduling_point_feasibility(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
 int rate_monotonic_least_upper_bound(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
-int earliest_deadline_first(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
 int least_laxity_first(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
+int earliest_deadline_first(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
 
 void run_feasibility_test(
 	U32_T numServices, 
@@ -105,7 +105,8 @@ void run_feasibility_test(
 	int(*CTF)(U32_T,U32_T[],U32_T[],U32_T[]), 
 	int(*RMLUB)(U32_T,U32_T[],U32_T[],U32_T[]), 
 	int(*SPF)(U32_T,U32_T[],U32_T[],U32_T[]),
-   int(*LLF)(U32_T,U32_T[],U32_T[],U32_T[])
+   int(*LLF)(U32_T,U32_T[],U32_T[],U32_T[]),
+   int(*EDF)(U32_T,U32_T[],U32_T[],U32_T[])
 )
 {
 	if(numServices == 3)
@@ -183,6 +184,14 @@ void run_feasibility_test(
          printf("LLF   : INFEASIBLE\n");
    }
 
+   if(EDF != NULL)
+   {
+      if(EDF(numServices, period, wcet, period) == TRUE)
+         printf("EDF   : FEASIBLE\n");
+      else
+         printf("EDF   : INFEASIBLE\n");
+   }
+
 		
 	printf("\n");
 	
@@ -201,39 +210,39 @@ int main(void)
    
     // EX 0
     numServices = 3;
-    run_feasibility_test(numServices, ex0_period, ex0_wcet, ex0_period, 0, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first);
+    run_feasibility_test(numServices, ex0_period, ex0_wcet, ex0_period, 0, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
 
     // EX 1
     numServices = 3;
-    run_feasibility_test(numServices, ex1_period, ex1_wcet, ex1_period, 1, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first);
+    run_feasibility_test(numServices, ex1_period, ex1_wcet, ex1_period, 1, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
 
     // EX 2
     numServices = 4;
-    run_feasibility_test(numServices, ex2_period, ex2_wcet, ex1_period, 2, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first);
+    run_feasibility_test(numServices, ex2_period, ex2_wcet, ex1_period, 2, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
 
     // EX 3
     numServices = 3;
-    run_feasibility_test(numServices, ex3_period, ex3_wcet, ex3_period, 3, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first);
+    run_feasibility_test(numServices, ex3_period, ex3_wcet, ex3_period, 3, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
 
     // EX 4
     numServices = 3;
-    run_feasibility_test(numServices, ex4_period, ex4_wcet, ex4_period, 4, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first);
+    run_feasibility_test(numServices, ex4_period, ex4_wcet, ex4_period, 4, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
 
     // EX 5
     numServices = 3;
-    run_feasibility_test(numServices, ex5_period, ex5_wcet, ex5_period, 5, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first);
+    run_feasibility_test(numServices, ex5_period, ex5_wcet, ex5_period, 5, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
     
     // EX 6
     numServices = 4;
-    run_feasibility_test(numServices, ex6_period, ex6_wcet, ex6_period, 6, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first);
+    run_feasibility_test(numServices, ex6_period, ex6_wcet, ex6_period, 6, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
 
     // EX 7
     numServices = 3;
-    run_feasibility_test(numServices, ex7_period, ex7_wcet, ex7_period, 7, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first);
+    run_feasibility_test(numServices, ex7_period, ex7_wcet, ex7_period, 7, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
     
     // EX 8
     numServices = 4;
-    run_feasibility_test(numServices, ex8_period, ex8_wcet, ex4_period, 8, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first);
+    run_feasibility_test(numServices, ex8_period, ex8_wcet, ex4_period, 8, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
     //run_feasibility_test(numServices, ex8_period, ex8_wcet, ex4_period, 8, NULL, NULL, NULL, least_laxity_first);
     
     printf("\n\n");
@@ -353,6 +362,86 @@ int scheduling_point_feasibility(U32_T numServices, U32_T period[],
    return rc;
 }
 
+int earliest_deadline_first(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[])
+{
+   // variable declerations
+   int ed_idx, ed_val_min, ed_val_current;
+   uint16_t max_tick = 0xFFFF;
+   int et_so_far[numServices];
+
+   // initialize "execution time so far" array to zero
+   for(int i = 0; i < numServices; i++)
+   {
+      et_so_far[i] = 0;
+   }
+
+   // loop for global tick simulation
+   for(int current_tick = 0; current_tick < max_tick; current_tick++)
+   {
+      ed_val_min = 0xFFFF;
+      ed_idx = -1;
+
+      //printf("@TICK=%d\n", current_tick);
+
+      // iterate through each service
+      for(int idx = 0; idx < numServices; idx++)
+      {
+         // check if the current task has completed executing. 
+         if (wcet[idx] == et_so_far[idx])
+         {
+            // if the current tick value is not evenly divisible by the current
+            // service's period then skip this task because it has already
+            // completed it's processing before it's deadline.  
+            if(current_tick % period[idx] != 0)
+            {
+               continue;
+            }
+            else
+            {
+               // otherwise, it is the start of a new period for this task, and
+               // it must start over. reset this tasks execution time counter.
+               et_so_far[idx] = 0;
+            }
+            
+         }
+
+         // calculate time until deadline
+         ed_val_current = (
+            (period[idx] - (current_tick % period[idx]))
+         );
+         
+         //printf("SERVICE_%d LAXITY=%d\n", idx+1, ll_val_current);
+
+         // if the time remaining until the deadline is greater than the
+         // remaining computation time for the task, then the task will fail to
+         // meet it's deadline. 
+         if(ed_val_current > (wcet[idx] - et_so_far[idx]))
+         {
+            // printf("Failed on service %d\n", idx+1);
+            return FALSE;
+         }
+
+         // if the tasks deadline is sooner than the current minimum deadline,
+         // set its value as the new minimum.
+         if(ed_val_min > ed_val_current)
+         {
+            ed_idx = idx;
+            ed_val_min = ed_val_current;
+         }
+
+         
+      }
+      // printf("\n");
+      
+      // increment the elapsed time (time it has been able to process) for the
+      // task with least laxity. 
+      et_so_far[ed_idx] += 1;
+
+      // printf("Running task: %d @TICK=%d\n", ll_idx+1, current_tick);
+   }
+
+   return TRUE;
+}
 
 int least_laxity_first(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[])
 {
@@ -409,7 +498,7 @@ int least_laxity_first(U32_T numServices, U32_T period[], U32_T wcet[], U32_T de
          // policy. Return false in this case
          if(ll_val_current < 0)
          {
-            printf("Failed on service %d\n", idx+1);
+            // printf("Failed on service %d\n", idx+1);
             return FALSE;
          }
 
