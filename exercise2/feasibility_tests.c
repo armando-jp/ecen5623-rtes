@@ -88,6 +88,8 @@ U32_T ex7_wcet[] = {1, 2, 4};
 U32_T ex8_period[] = {2, 5, 7, 13};
 U32_T ex8_wcet[] = {1, 1, 1, 2};
 
+U32_T ex9_period[] = {6, 8, 12, 24};
+U32_T ex9_wcet[] = {1, 2, 4, 6};
 
 // function declerations
 int completion_time_feasibility(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
@@ -95,6 +97,7 @@ int scheduling_point_feasibility(U32_T numServices, U32_T period[], U32_T wcet[]
 int rate_monotonic_least_upper_bound(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
 int least_laxity_first(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
 int earliest_deadline_first(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
+int deadline_monotonic(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[]);
 
 void run_feasibility_test(
 	U32_T numServices, 
@@ -106,7 +109,8 @@ void run_feasibility_test(
 	int(*RMLUB)(U32_T,U32_T[],U32_T[],U32_T[]), 
 	int(*SPF)(U32_T,U32_T[],U32_T[],U32_T[]),
    int(*LLF)(U32_T,U32_T[],U32_T[],U32_T[]),
-   int(*EDF)(U32_T,U32_T[],U32_T[],U32_T[])
+   int(*EDF)(U32_T,U32_T[],U32_T[],U32_T[]),
+   int(*DM)(U32_T,U32_T[],U32_T[],U32_T[])
 )
 {
 	if(numServices == 3)
@@ -192,7 +196,13 @@ void run_feasibility_test(
          printf("EDF   : INFEASIBLE\n");
    }
 
-		
+   if(DM != NULL)
+   {
+      if(DM(numServices, period, wcet, period) == TRUE)
+         printf("DM    : FEASIBLE\n");
+      else
+         printf("DM    : INFEASIBLE\n");
+   }	
 	printf("\n");
 	
 }
@@ -210,41 +220,45 @@ int main(void)
    
     // EX 0
     numServices = 3;
-    run_feasibility_test(numServices, ex0_period, ex0_wcet, ex0_period, 0, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
+    run_feasibility_test(numServices, ex0_period, ex0_wcet, ex0_period, 0, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
 
     // EX 1
     numServices = 3;
-    run_feasibility_test(numServices, ex1_period, ex1_wcet, ex1_period, 1, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
+    run_feasibility_test(numServices, ex1_period, ex1_wcet, ex1_period, 1, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
 
     // EX 2
     numServices = 4;
-    run_feasibility_test(numServices, ex2_period, ex2_wcet, ex1_period, 2, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
+    run_feasibility_test(numServices, ex2_period, ex2_wcet, ex1_period, 2, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
 
     // EX 3
     numServices = 3;
-    run_feasibility_test(numServices, ex3_period, ex3_wcet, ex3_period, 3, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
+    run_feasibility_test(numServices, ex3_period, ex3_wcet, ex3_period, 3, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
 
     // EX 4
     numServices = 3;
-    run_feasibility_test(numServices, ex4_period, ex4_wcet, ex4_period, 4, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
+    run_feasibility_test(numServices, ex4_period, ex4_wcet, ex4_period, 4, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
 
     // EX 5
     numServices = 3;
-    run_feasibility_test(numServices, ex5_period, ex5_wcet, ex5_period, 5, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
+    run_feasibility_test(numServices, ex5_period, ex5_wcet, ex5_period, 5, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
     
     // EX 6
     numServices = 4;
-    run_feasibility_test(numServices, ex6_period, ex6_wcet, ex6_period, 6, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
+    run_feasibility_test(numServices, ex6_period, ex6_wcet, ex6_period, 6, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
 
     // EX 7
     numServices = 3;
-    run_feasibility_test(numServices, ex7_period, ex7_wcet, ex7_period, 7, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
+    run_feasibility_test(numServices, ex7_period, ex7_wcet, ex7_period, 7, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
     
     // EX 8
     numServices = 4;
-    run_feasibility_test(numServices, ex8_period, ex8_wcet, ex4_period, 8, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first);
+    run_feasibility_test(numServices, ex8_period, ex8_wcet, ex4_period, 8, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
     //run_feasibility_test(numServices, ex8_period, ex8_wcet, ex4_period, 8, NULL, NULL, NULL, least_laxity_first);
     
+    // EX 9
+    numServices = 4;
+    run_feasibility_test(numServices, ex9_period, ex9_wcet, ex4_period, 9, completion_time_feasibility, rate_monotonic_least_upper_bound, scheduling_point_feasibility, least_laxity_first, earliest_deadline_first, deadline_monotonic);
+
     printf("\n\n");
 
 }
@@ -522,4 +536,22 @@ int least_laxity_first(U32_T numServices, U32_T period[], U32_T wcet[], U32_T de
    }
 
    return TRUE;
+}
+
+int deadline_monotonic(U32_T numServices, U32_T period[], U32_T wcet[], U32_T deadline[])
+{
+  double interference;
+  double deadline_monotonic_check = 0;
+
+  for (int i = 0; i < numServices; i++) {
+        interference = 0;
+        for (int j = 0; j<=i-1; j++) {
+            interference +=  ceil(((double)(deadline[i]))/((double)period[j]))*wcet[j];
+        }
+        deadline_monotonic_check = ((double)(wcet[i]) + interference) / ((double)deadline[i]);
+
+        if (deadline_monotonic_check > 1.0) 
+            return FALSE;
+  }
+  return TRUE;
 }
