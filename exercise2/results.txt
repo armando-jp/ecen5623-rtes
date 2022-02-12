@@ -12,6 +12,7 @@ CTF   : FEASIBLE
 SPF   : FEASIBLE
 LLF   : FEASIBLE
 EDF   : FEASIBLE
+DM    : FEASIBLE
 
 Ex-1 U=98.57% (C1=1, C2=1, C3=2; T1=2, T2=5, T3=7; T=D): 
 ===RESULTS===
@@ -26,6 +27,7 @@ CTF   : INFEASIBLE
 SPF   : INFEASIBLE
 LLF   : FEASIBLE
 EDF   : FEASIBLE
+DM    : INFEASIBLE
 
 Ex-2 U=99.67% (C1=1, C2=1, C3=1, C4=2; T1=2, T2=5, T3=7, T4=13; T=D): 
 ===RESULTS===
@@ -41,6 +43,7 @@ CTF   : INFEASIBLE
 SPF   : INFEASIBLE
 LLF   : FEASIBLE
 EDF   : FEASIBLE
+DM    : INFEASIBLE
 
 Ex-3 U=93.33% (C1=1, C2=2, C3=3; T1=3, T2=5, T3=15; T=D): 
 ===RESULTS===
@@ -55,6 +58,7 @@ CTF   : FEASIBLE
 SPF   : FEASIBLE
 LLF   : FEASIBLE
 EDF   : FEASIBLE
+DM    : FEASIBLE
 
 Ex-4 U=100.00% (C1=1, C2=1, C3=4; T1=2, T2=4, T3=16; T=D): 
 ===RESULTS===
@@ -69,6 +73,7 @@ CTF   : FEASIBLE
 SPF   : FEASIBLE
 LLF   : FEASIBLE
 EDF   : FEASIBLE
+DM    : FEASIBLE
 
 Ex-5 U=100.00% (C1=1, C2=2, C3=1; T1=2, T2=5, T3=10; T=D): 
 ===RESULTS===
@@ -83,6 +88,7 @@ CTF   : FEASIBLE
 SPF   : FEASIBLE
 LLF   : FEASIBLE
 EDF   : FEASIBLE
+DM    : FEASIBLE
 
 Ex-6 U=99.67% (C1=1, C2=1, C3=1, C4=2; T1=2, T2=5, T3=7, T4=13; T=D): 
 ===RESULTS===
@@ -98,20 +104,22 @@ CTF   : INFEASIBLE
 SPF   : INFEASIBLE
 LLF   : FEASIBLE
 EDF   : FEASIBLE
+DM    : INFEASIBLE
 
-Ex-7 U=104.10% (C1=1, C2=2, C3=4; T1=3, T2=5, T3=13; T=D): 
+Ex-7 U=100.00% (C1=1, C2=2, C3=4; T1=3, T2=5, T3=15; T=D): 
 ===RESULTS===
 for 0, wcet=1.000000, period=3.000000, utility_sum = 0.333333
 for 1, wcet=2.000000, period=5.000000, utility_sum = 0.733333
-for 2, wcet=4.000000, period=13.000000, utility_sum = 1.041026
+for 2, wcet=4.000000, period=15.000000, utility_sum = 1.000000
 ===LUB STATS===
-For 3, Utility_sum = 1.041026
+For 3, Utility_sum = 1.000000
 LUB = 0.779763
 RM LUB: INFEASIBLE
-CTF   : INFEASIBLE
-SPF   : INFEASIBLE
+CTF   : FEASIBLE
+SPF   : FEASIBLE
 LLF   : FEASIBLE
-EDF   : INFEASIBLE
+EDF   : FEASIBLE
+DM    : FEASIBLE
 
 Ex-8 U=99.67% (C1=1, C2=1, C3=1, C4=2; T1=2, T2=5, T3=7, T4=13; T=D): 
 ===RESULTS===
@@ -127,6 +135,23 @@ CTF   : INFEASIBLE
 SPF   : INFEASIBLE
 LLF   : FEASIBLE
 EDF   : FEASIBLE
+DM    : INFEASIBLE
+
+Ex-9 U=100.00% (C1=1, C2=2, C3=4, C4=6; T1=6, T2=8, T3=12, T4=24; T=D): 
+===RESULTS===
+for 0, wcet=1.000000, period=6.000000, utility_sum = 0.166667
+for 1, wcet=2.000000, period=8.000000, utility_sum = 0.416667
+for 2, wcet=4.000000, period=12.000000, utility_sum = 0.750000
+for 3, wcet=6.000000, period=24.000000, utility_sum = 1.000000
+===LUB STATS===
+For 4, Utility_sum = 1.000000
+LUB = 0.756828
+RM LUB: INFEASIBLE
+CTF   : FEASIBLE
+SPF   : FEASIBLE
+LLF   : FEASIBLE
+EDF   : FEASIBLE
+DM    : FEASIBLE
 
 
 

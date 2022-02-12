@@ -1,3 +1,8 @@
+// Authors: Armando Pinales and Gautama Gandhi
+// This code was modified and expanded by Armando Pinales and Gautama Gandhi for
+// exercise #2 of ECEN 5623, Spring 2022
+// University of Colorado Boulder
+
 // Sam Siewert, August 2020
 //
 // This example code provides feasibiltiy decision tests for single core fixed priority rate monontic systems only (not dyanmic priority such as deadline driven
