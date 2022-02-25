@@ -29,7 +29,8 @@ void *grabRsrcs(void *threadp)
    threadParams_t *threadParams = (threadParams_t *)threadp;
    int threadIdx = threadParams->threadIdx;
 
-
+  // IF thread1, attempt to grab the resource A, if that suceeds, then attempt
+  // to grab resource B. If both are grabbed, release them and exit
    if(threadIdx == THREAD_1)
    {
      printf("THREAD 1 grabbing resources\n");
@@ -44,6 +45,8 @@ void *grabRsrcs(void *threadp)
      pthread_mutex_unlock(&rsrcA);
      printf("THREAD 1 done\n");
    }
+   // IF thread2, attempt to grab resource B. If that succeeds, then attempt to
+   // grab resource A. If both are grabbed, release them and exit.
    else
    {
      printf("THREAD 2 grabbing resources\n");
@@ -61,6 +64,18 @@ void *grabRsrcs(void *threadp)
    pthread_exit(NULL);
 }
 
+// we can pass a single argument to main: either "safe" or "race". If we pass
+// "safe" to main, thread 1 is created but thread 2 will not be created until
+// thread 1 has completed.
+//
+// If we pass "race", then the variable noWait is set to 1. This will make it to
+// where both thread1 and thread2 do not wait to grab the next resource. This
+// can result in a "race" to see who can get the resource first. It may or may
+// not result in a deadlock.
+// 
+// In the final case, where no argument is passed. Both threads are instantiated
+// and will attempt to grab resources. A wait WILL occur after each thread grabs
+// the first resource, resulting in a guaranteed deadlock.
 int main (int argc, char *argv[])
 {
    int rc, safe=0;
