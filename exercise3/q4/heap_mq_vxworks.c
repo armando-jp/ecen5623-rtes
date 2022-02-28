@@ -120,7 +120,6 @@ void heap_mq(void)
   /* setup common message q attributes */
   mq_attr.mq_maxmsg = 100;
   mq_attr.mq_msgsize = sizeof(void *)+sizeof(int);
-
   mq_attr.mq_flags = 0;
 
   /* note that VxWorks does not deal with permissions? */
