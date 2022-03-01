@@ -2,8 +2,8 @@ INCLUDE_DIRS =
 LIB_DIRS = 
 
 CDEFS=
-CFLAGS= -O -g $(INCLUDE_DIRS) $(CDEFS) -DLINUX
-LIBS=-lpthread -lrt
+CFLAGS= -O -g $(INCLUDE_DIRS) $(CDEFS) -DLINUX -Werror -Wall -pedantic -ggdb
+LIBS=-lrt -pthread -lpthread
 
 HFILES=
 

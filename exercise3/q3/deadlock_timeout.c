@@ -19,6 +19,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include <errno.h>
+#include <unistd.h>
 
 #define NUM_THREADS 2
 #define THREAD_1 1
@@ -33,7 +34,8 @@ typedef struct
 // create an array of the arg structures and an array of type pthread to hold
 // thread IDs.
 threadParams_t thread_args[NUM_THREADS];
-pthread_t threads[NUM_THREADS];
+// pthread_t threads[NUM_THREADS];
+pthread_t thread1, thread2;
 
 // create the mutexes to be used by THREAD1 and THREAD2
 pthread_mutex_t rsrcA; 
@@ -55,17 +57,23 @@ int main (int argc, char *argv[])
   no_wait     = 0;
 
   // Set default protocol for mutex which is unlocked to start
-  pthread_mutex_init(&rsrcA, NULL);
-  pthread_mutex_init(&rsrcB, NULL);
+  if(pthread_mutex_init(&rsrcA, NULL) != 0)
+  {
+    printf("Error initializing mutex rsrcA\r\n");
+  }
+  if(pthread_mutex_init(&rsrcB, NULL) != 0)
+  {
+    printf("Error initializing mutex rsrcB\r\n");
+  }
 
   // CREATE THREAD 1
   printf("Creating thread %d\n", THREAD_1);
-  thread_args[THREAD_1].thread_id = THREAD_1;
+  thread_args[0].thread_id = THREAD_1;
   rv = pthread_create(
-    &threads[0], 
+    &thread1, 
     NULL, 
     get_resources, 
-    (void *)&thread_args[THREAD_1]
+    (void *)&thread_args[0]
   );
   if(rv) 
   {
@@ -77,12 +85,12 @@ int main (int argc, char *argv[])
 
   // CREATE THREAD 2
   printf("Creating thread %d\n", THREAD_2);
-  thread_args[THREAD_2].thread_id=THREAD_2;
+  thread_args[1].thread_id=THREAD_2;
   rv = pthread_create(
-    &threads[1], 
+    &thread2, 
     NULL, 
     get_resources, 
-    (void *)&thread_args[THREAD_2]
+    (void *)&thread_args[1]
   );
   if(rv) 
   {
@@ -91,9 +99,11 @@ int main (int argc, char *argv[])
     exit(-1);
   }
 
+  printf("THREAD1: %lu\r\nTHREAD2: %lu\r\n", thread1, thread2);
+
+  printf("Attempting to join both threads.\n"); 
   // ATTEMPT TO JOIN THREAD1
-  printf("Attempting to join both threads.\n");
-  if(pthread_join(threads[0], NULL) == 0)
+  if(pthread_join(thread1, NULL) == 0)
   {
     printf("Thread 1 joined to main\n");
   }
@@ -101,9 +111,8 @@ int main (int argc, char *argv[])
   {
     perror("Thread 1");
   }
-
-  // ATTEMPT TO JOIN THREADA2
-  if(pthread_join(threads[1], NULL) == 0)
+  // ATTEMPT TO JOIN THREAD2
+  if(pthread_join(thread2, NULL) == 0)
   {
     printf("Thread 2 joined to main\n");
   }
@@ -163,6 +172,7 @@ void *get_resources(void *args)
   // Create timeouts for rsrcA and rsrcB
   timeout_rsrcA.tv_sec  = current_time.tv_sec + 2;
   timeout_rsrcA.tv_nsec = current_time.tv_nsec;
+  
   timeout_rsrcB.tv_sec  = current_time.tv_sec + 3;
   timeout_rsrcB.tv_nsec = current_time.tv_nsec;
 
