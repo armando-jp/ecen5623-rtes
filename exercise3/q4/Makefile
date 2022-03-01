@@ -22,5 +22,8 @@ clean:
 posix_mq:	posix_mq.o
 	$(CC) $(LDFLAGS) $(CFLAGS) -o $@ posix_mq.o $(LIBS)
 
+heap_mq:	heap_mq.o
+	$(CC) $(LDFLAGS) $(CFLAGS) -o $@ heap_mq.o $(LIBS) 
+
 .c.o:
 	$(CC) $(CFLAGS) -c $<
