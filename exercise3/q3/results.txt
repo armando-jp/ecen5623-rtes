@@ -1,9 +1,0 @@
-Creating thread 1
-Creating thread 2
-Thread 2 started
-THREAD 2 grabbing resource B @ 1646088916 sec and 320505764 nsec
-Thread 2 GOT B
-count_rsrcA=0, count_rsrcB=1
-THREAD1: 2
-THREAD2: 98587712
-Attempting to join both threads.
