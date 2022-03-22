@@ -1,0 +1,1 @@
+"./project0.obj" "./startup_ccs.obj" "./uartstdio.obj" "./src/gpio.obj" "./src/timer.obj" "./src/uart.obj" "../project0_ccs.cmd" -l"D:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" -llibc.a 
