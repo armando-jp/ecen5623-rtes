@@ -14,6 +14,7 @@ ORDERED_OBJS += \
 "./startup_ccs.obj" \
 "./uartstdio.obj" \
 "./src/gpio.obj" \
+"./src/task.obj" \
 "./src/timer.obj" \
 "./src/uart.obj" \
 "../project0_ccs.cmd" \
@@ -164,8 +165,8 @@ timers_and_interrupts.bin: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "project0.obj" "startup_ccs.obj" "uartstdio.obj" "src\gpio.obj" "src\timer.obj" "src\uart.obj" 
-	-$(RM) "project0.d" "startup_ccs.d" "uartstdio.d" "src\gpio.d" "src\timer.d" "src\uart.d" 
+	-$(RM) "project0.obj" "startup_ccs.obj" "uartstdio.obj" "src\gpio.obj" "src\task.obj" "src\timer.obj" "src\uart.obj" 
+	-$(RM) "project0.d" "startup_ccs.d" "uartstdio.d" "src\gpio.d" "src\task.d" "src\timer.d" "src\uart.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

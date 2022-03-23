@@ -35,7 +35,11 @@
 #include "src/timer.h"
 #include "src/gpio.h"
 #include "src/uart.h"
+#include "src/task.h"
 
+// Global variables
+volatile uint32_t time = 0;
+volatile uint32_t events = 0;
 //*****************************************************************************
 //
 // The error routine that is called if the driver library encounters an error.
@@ -96,8 +100,10 @@ int main(void)
     //
     // Loop Forever
     //
-    UARTprintf("System Freq: %d\r\n", ui32SysClock);
+    UARTprintf("%d: System Freq: %d\r\n", time, ui32SysClock);
+
     while(1)
     {
+        task1(events, time);
     }
 }

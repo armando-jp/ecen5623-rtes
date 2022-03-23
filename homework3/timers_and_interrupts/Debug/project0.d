@@ -23,6 +23,7 @@ project0.obj: D:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_18.12.8.LTS/include/st
 project0.obj: ../src/timer.h
 project0.obj: ../src/gpio.h
 project0.obj: ../src/uart.h
+project0.obj: ../src/task.h
 
 ../project0.c:
 
@@ -69,4 +70,6 @@ D:/ti/ccs1110/ccs/tools/compiler/ti-cgt-arm_18.12.8.LTS/include/stdarg.h:
 ../src/gpio.h:
 
 ../src/uart.h:
+
+../src/task.h:
 
