@@ -144,23 +144,28 @@ void main(void)
     pid_t mainpid;
     cpu_set_t allcpuset;
 
+    ////////////////////////////////////////////////////////////////////////////
+    // Init time variables
+    ////////////////////////////////////////////////////////////////////////////
     printf("Starting Sequencer Demo\n");
     gettimeofday(&start_time_val, (struct timezone *)0);
     gettimeofday(&current_time_val, (struct timezone *)0);
     syslog(LOG_CRIT, "Sequencer @ sec=%d, msec=%d\n", (int)(current_time_val.tv_sec-start_time_val.tv_sec), (int)current_time_val.tv_usec/USEC_PER_MSEC);
 
-   printf("System has %d processors configured and %d available.\n", get_nprocs_conf(), get_nprocs());
+    printf("System has %d processors configured and %d available.\n", get_nprocs_conf(), get_nprocs());
 
-   CPU_ZERO(&allcpuset);
+    ////////////////////////////////////////////////////////////////////////////
+    // CONFIG CPUs
+    ////////////////////////////////////////////////////////////////////////////
+    CPU_ZERO(&allcpuset);
+    for(i=0; i < NUM_CPU_CORES; i++)
+        CPU_SET(i, &allcpuset);
+    printf("Using CPUS=%d from total available.\n", CPU_COUNT(&allcpuset));
 
-   for(i=0; i < NUM_CPU_CORES; i++)
-       CPU_SET(i, &allcpuset);
 
-   printf("Using CPUS=%d from total available.\n", CPU_COUNT(&allcpuset));
-
-
-    // initialize the sequencer semaphores
-    //
+    ////////////////////////////////////////////////////////////////////////////
+    // Init task semaphores
+    ////////////////////////////////////////////////////////////////////////////
     if (sem_init (&semS1, 0, 0)) { printf ("Failed to initialize S1 semaphore\n"); exit (-1); }
     if (sem_init (&semS2, 0, 0)) { printf ("Failed to initialize S2 semaphore\n"); exit (-1); }
     if (sem_init (&semS3, 0, 0)) { printf ("Failed to initialize S3 semaphore\n"); exit (-1); }
@@ -169,10 +174,15 @@ void main(void)
     if (sem_init (&semS6, 0, 0)) { printf ("Failed to initialize S6 semaphore\n"); exit (-1); }
     if (sem_init (&semS7, 0, 0)) { printf ("Failed to initialize S7 semaphore\n"); exit (-1); }
 
+    ////////////////////////////////////////////////////////////////////////////
+    // Set scheduler=SCHED_FIFO and max priority for main thread
+    ////////////////////////////////////////////////////////////////////////////
     mainpid=getpid();
 
     rt_max_prio = sched_get_priority_max(SCHED_FIFO);
     rt_min_prio = sched_get_priority_min(SCHED_FIFO);
+    printf("rt_max_prio=%d\n", rt_max_prio);
+    printf("rt_min_prio=%d\n", rt_min_prio);
 
     rc=sched_getparam(mainpid, &main_param);
     main_param.sched_priority=rt_max_prio;
@@ -180,7 +190,9 @@ void main(void)
     if(rc < 0) perror("main_param");
     print_scheduler();
 
-
+    ////////////////////////////////////////////////////////////////////////////
+    // Get pthread attribute scope
+    ////////////////////////////////////////////////////////////////////////////
     pthread_attr_getscope(&main_attr, &scope);
 
     if(scope == PTHREAD_SCOPE_SYSTEM)
@@ -190,9 +202,13 @@ void main(void)
     else
       printf("PTHREAD SCOPE UNKNOWN\n");
 
-    printf("rt_max_prio=%d\n", rt_max_prio);
-    printf("rt_min_prio=%d\n", rt_min_prio);
-
+    ////////////////////////////////////////////////////////////////////////////
+    // Initialize thread parameters
+    //      * Set scheduling policy to SCHED_FIFO
+    //      * Set priority to (rt_max_prio - i)
+    //      * Set thread ID in threadParams array
+    //      * Set threads to run on CPU #3.
+    ////////////////////////////////////////////////////////////////////////////
     for(i=0; i < NUM_THREADS; i++)
     {
 
@@ -209,11 +225,11 @@ void main(void)
 
       threadParams[i].threadIdx=i;
     }
-   
     printf("Service threads will run on %d CPU cores\n", CPU_COUNT(&threadcpu));
 
-    // Create Service threads which will block awaiting release for:
-    //
+    ////////////////////////////////////////////////////////////////////////////
+    // Create service threads
+    ////////////////////////////////////////////////////////////////////////////
 
     // Servcie_1 = RT_MAX-1	@ 3 Hz
     //
@@ -305,7 +321,9 @@ void main(void)
     //
     // usleep(1000000);
  
-    // Create Sequencer thread, which like a cyclic executive, is highest prio
+    ////////////////////////////////////////////////////////////////////////////
+    // Create sequencer thread w/highest priority
+    ////////////////////////////////////////////////////////////////////////////
     printf("Start sequencer\n");
     threadParams[0].sequencePeriods=900;
 
@@ -319,14 +337,31 @@ void main(void)
     else
         printf("pthread_create successful for sequeencer service 0\n");
 
+    ////////////////////////////////////////////////////////////////////////////
+    // Wait for threads to complete
+    ////////////////////////////////////////////////////////////////////////////
+    for(i=0;i<NUM_THREADS;i++)
+        pthread_join(threads[i], NULL);
 
-   for(i=0;i<NUM_THREADS;i++)
-       pthread_join(threads[i], NULL);
-
-   printf("\nTEST COMPLETE\n");
+    printf("\nTEST COMPLETE\n");
 }
 
-
+////////////////////////////////////////////////////////////////////////////////
+// Sequencer definitions 
+//      * Initially print/log its start time.
+//      * DO/WHILE (!abortTest && (sequence count < total sequences)):
+//      *       DO/WHILE (there is still sleep time remaining):
+//      *           SLEEP FOR 33.33 msec (30 Hz)
+//      *           IF (pause interrupted by signal):
+//      *               save and print remaining time
+//      *               increment delay counter
+//      *           IF (pause return < 0):
+//      *               error. terminate thread.
+//      *       Increment sequence count
+//      *       Log current time
+//      *       IF (looping delay > 0), Log
+//      *       IF (sequence count a ratio of task period): release the sem.
+////////////////////////////////////////////////////////////////////////////////
 void *Sequencer(void *threadp)
 {
     struct timeval current_time_val;
@@ -415,7 +450,16 @@ void *Sequencer(void *threadp)
 }
 
 
-
+////////////////////////////////////////////////////////////////////////////////
+// Task definitions 
+// All threads will:
+//      * Initially print/log their start time.
+//      * WHILE !abortS#
+//      *       SEM_WAIT(semS#)
+//      *       S#Cnt++
+//      *       GET TIME
+//      *       LOG RELEASE TIME
+////////////////////////////////////////////////////////////////////////////////
 void *Service_1(void *threadp)
 {
     struct timeval current_time_val;
@@ -578,7 +622,9 @@ void *Service_7(void *threadp)
     pthread_exit((void *)0);
 }
 
-
+////////////////////////////////////////////////////////////////////////////////
+// getTimeMsec never used
+////////////////////////////////////////////////////////////////////////////////
 double getTimeMsec(void)
 {
   struct timespec event_ts = {0, 0};
@@ -587,7 +633,9 @@ double getTimeMsec(void)
   return ((event_ts.tv_sec)*1000.0) + ((event_ts.tv_nsec)/1000000.0);
 }
 
-
+////////////////////////////////////////////////////////////////////////////////
+// print_scheduler is used
+////////////////////////////////////////////////////////////////////////////////
 void print_scheduler(void)
 {
    int schedType;

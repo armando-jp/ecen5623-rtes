@@ -1,0 +1,1122 @@
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer @ sec=0, msec=512
+Mar 24 16:01:54 raspberrypi seqgen: Frame Sampler thread @ sec=0, msec=513
+Mar 24 16:01:54 raspberrypi seqgen: Time-stamp with Image Analysis thread @ sec=0, msec=514
+Mar 24 16:01:54 raspberrypi seqgen: Difference Image Proc thread @ sec=0, msec=514
+Mar 24 16:01:54 raspberrypi seqgen: Time-stamp Image Save to File thread @ sec=0, msec=514
+Mar 24 16:01:54 raspberrypi seqgen: Processed Image Save to File thread @ sec=0, msec=514
+Mar 24 16:01:54 raspberrypi seqgen: Send Time-stamped Image to Remote thread @ sec=0, msec=515
+Mar 24 16:01:54 raspberrypi seqgen: 10 sec Tick Debug thread @ sec=0, msec=515
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer thread @ sec=0, msec=515
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 1 @ sec=0, msec=549
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 2 @ sec=0, msec=582
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 3 @ sec=0, msec=616
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 4 @ sec=0, msec=649
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 5 @ sec=0, msec=682
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 6 @ sec=0, msec=716
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 7 @ sec=0, msec=749
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 8 @ sec=0, msec=783
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 9 @ sec=0, msec=816
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 10 @ sec=0, msec=849
+Mar 24 16:01:54 raspberrypi seqgen: Frame Sampler release 1 @ sec=0, msec=850
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 11 @ sec=0, msec=883
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 12 @ sec=0, msec=916
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 13 @ sec=0, msec=950
+Mar 24 16:01:54 raspberrypi seqgen: Sequencer cycle 14 @ sec=0, msec=983
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 15 @ sec=1, msec=16
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 16 @ sec=1, msec=50
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 17 @ sec=1, msec=83
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 18 @ sec=1, msec=117
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 19 @ sec=1, msec=150
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 20 @ sec=1, msec=184
+Mar 24 16:01:55 raspberrypi seqgen: Frame Sampler release 2 @ sec=1, msec=184
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 21 @ sec=1, msec=217
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 22 @ sec=1, msec=250
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 23 @ sec=1, msec=284
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 24 @ sec=1, msec=317
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 25 @ sec=1, msec=351
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 26 @ sec=1, msec=384
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 27 @ sec=1, msec=418
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 28 @ sec=1, msec=451
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 29 @ sec=1, msec=485
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 30 @ sec=1, msec=518
+Mar 24 16:01:55 raspberrypi seqgen: Frame Sampler release 3 @ sec=1, msec=519
+Mar 24 16:01:55 raspberrypi seqgen: Time-stamp Image Save to File release 1 @ sec=1, msec=519
+Mar 24 16:01:55 raspberrypi seqgen: Time-stamp with Image Analysis release 1 @ sec=1, msec=519
+Mar 24 16:01:55 raspberrypi seqgen: Send Time-stamped Image to Remote release 1 @ sec=1, msec=519
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 31 @ sec=1, msec=552
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 32 @ sec=1, msec=585
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 33 @ sec=1, msec=619
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 34 @ sec=1, msec=652
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 35 @ sec=1, msec=686
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 36 @ sec=1, msec=719
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 37 @ sec=1, msec=753
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 38 @ sec=1, msec=786
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 39 @ sec=1, msec=819
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 40 @ sec=1, msec=853
+Mar 24 16:01:55 raspberrypi seqgen: Frame Sampler release 4 @ sec=1, msec=853
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 41 @ sec=1, msec=887
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 42 @ sec=1, msec=920
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 43 @ sec=1, msec=953
+Mar 24 16:01:55 raspberrypi seqgen: Sequencer cycle 44 @ sec=1, msec=987
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 45 @ sec=2, msec=20
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 46 @ sec=2, msec=54
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 47 @ sec=2, msec=87
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 48 @ sec=2, msec=120
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 49 @ sec=2, msec=154
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 50 @ sec=2, msec=187
+Mar 24 16:01:56 raspberrypi seqgen: Frame Sampler release 5 @ sec=2, msec=187
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 51 @ sec=2, msec=221
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 52 @ sec=2, msec=254
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 53 @ sec=2, msec=287
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 54 @ sec=2, msec=321
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 55 @ sec=2, msec=354
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 56 @ sec=2, msec=388
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 57 @ sec=2, msec=421
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 58 @ sec=2, msec=454
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 59 @ sec=2, msec=488
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 60 @ sec=2, msec=521
+Mar 24 16:01:56 raspberrypi seqgen: Frame Sampler release 6 @ sec=2, msec=521
+Mar 24 16:01:56 raspberrypi seqgen: Processed Image Save to File release 1 @ sec=2, msec=521
+Mar 24 16:01:56 raspberrypi seqgen: Time-stamp Image Save to File release 2 @ sec=2, msec=521
+Mar 24 16:01:56 raspberrypi seqgen: Time-stamp with Image Analysis release 2 @ sec=2, msec=521
+Mar 24 16:01:56 raspberrypi seqgen: Send Time-stamped Image to Remote release 2 @ sec=2, msec=521
+Mar 24 16:01:56 raspberrypi seqgen: Difference Image Proc release 1 @ sec=2, msec=521
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 61 @ sec=2, msec=555
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 62 @ sec=2, msec=588
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 63 @ sec=2, msec=622
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 64 @ sec=2, msec=655
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 65 @ sec=2, msec=688
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 66 @ sec=2, msec=722
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 67 @ sec=2, msec=755
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 68 @ sec=2, msec=789
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 69 @ sec=2, msec=822
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 70 @ sec=2, msec=856
+Mar 24 16:01:56 raspberrypi seqgen: Frame Sampler release 7 @ sec=2, msec=856
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 71 @ sec=2, msec=889
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 72 @ sec=2, msec=923
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 73 @ sec=2, msec=956
+Mar 24 16:01:56 raspberrypi seqgen: Sequencer cycle 74 @ sec=2, msec=990
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 75 @ sec=3, msec=23
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 76 @ sec=3, msec=57
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 77 @ sec=3, msec=90
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 78 @ sec=3, msec=123
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 79 @ sec=3, msec=157
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 80 @ sec=3, msec=190
+Mar 24 16:01:57 raspberrypi seqgen: Frame Sampler release 8 @ sec=3, msec=190
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 81 @ sec=3, msec=224
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 82 @ sec=3, msec=257
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 83 @ sec=3, msec=291
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 84 @ sec=3, msec=324
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 85 @ sec=3, msec=358
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 86 @ sec=3, msec=391
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 87 @ sec=3, msec=425
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 88 @ sec=3, msec=458
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 89 @ sec=3, msec=491
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 90 @ sec=3, msec=525
+Mar 24 16:01:57 raspberrypi seqgen: Frame Sampler release 9 @ sec=3, msec=525
+Mar 24 16:01:57 raspberrypi seqgen: Time-stamp Image Save to File release 3 @ sec=3, msec=525
+Mar 24 16:01:57 raspberrypi seqgen: Time-stamp with Image Analysis release 3 @ sec=3, msec=525
+Mar 24 16:01:57 raspberrypi seqgen: Send Time-stamped Image to Remote release 3 @ sec=3, msec=525
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 91 @ sec=3, msec=558
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 92 @ sec=3, msec=592
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 93 @ sec=3, msec=625
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 94 @ sec=3, msec=659
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 95 @ sec=3, msec=692
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 96 @ sec=3, msec=726
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 97 @ sec=3, msec=759
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 98 @ sec=3, msec=793
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 99 @ sec=3, msec=826
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 100 @ sec=3, msec=859
+Mar 24 16:01:57 raspberrypi seqgen: Frame Sampler release 10 @ sec=3, msec=860
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 101 @ sec=3, msec=893
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 102 @ sec=3, msec=926
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 103 @ sec=3, msec=960
+Mar 24 16:01:57 raspberrypi seqgen: Sequencer cycle 104 @ sec=3, msec=993
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 105 @ sec=4, msec=27
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 106 @ sec=4, msec=60
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 107 @ sec=4, msec=94
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 108 @ sec=4, msec=127
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 109 @ sec=4, msec=161
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 110 @ sec=4, msec=194
+Mar 24 16:01:58 raspberrypi seqgen: Frame Sampler release 11 @ sec=4, msec=194
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 111 @ sec=4, msec=227
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 112 @ sec=4, msec=261
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 113 @ sec=4, msec=294
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 114 @ sec=4, msec=328
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 115 @ sec=4, msec=361
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 116 @ sec=4, msec=395
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 117 @ sec=4, msec=428
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 118 @ sec=4, msec=462
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 119 @ sec=4, msec=495
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 120 @ sec=4, msec=529
+Mar 24 16:01:58 raspberrypi seqgen: Time-stamp with Image Analysis release 4 @ sec=4, msec=529
+Mar 24 16:01:58 raspberrypi seqgen: Frame Sampler release 12 @ sec=4, msec=529
+Mar 24 16:01:58 raspberrypi seqgen: Send Time-stamped Image to Remote release 4 @ sec=4, msec=529
+Mar 24 16:01:58 raspberrypi seqgen: Time-stamp Image Save to File release 4 @ sec=4, msec=529
+Mar 24 16:01:58 raspberrypi seqgen: Difference Image Proc release 2 @ sec=4, msec=529
+Mar 24 16:01:58 raspberrypi seqgen: Processed Image Save to File release 2 @ sec=4, msec=529
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 121 @ sec=4, msec=563
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 122 @ sec=4, msec=596
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 123 @ sec=4, msec=629
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 124 @ sec=4, msec=663
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 125 @ sec=4, msec=696
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 126 @ sec=4, msec=730
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 127 @ sec=4, msec=763
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 128 @ sec=4, msec=797
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 129 @ sec=4, msec=830
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 130 @ sec=4, msec=864
+Mar 24 16:01:58 raspberrypi seqgen: Frame Sampler release 13 @ sec=4, msec=864
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 131 @ sec=4, msec=897
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 132 @ sec=4, msec=931
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 133 @ sec=4, msec=964
+Mar 24 16:01:58 raspberrypi seqgen: Sequencer cycle 134 @ sec=4, msec=998
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 135 @ sec=5, msec=31
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 136 @ sec=5, msec=64
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 137 @ sec=5, msec=98
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 138 @ sec=5, msec=131
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 139 @ sec=5, msec=165
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 140 @ sec=5, msec=198
+Mar 24 16:01:59 raspberrypi seqgen: Frame Sampler release 14 @ sec=5, msec=198
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 141 @ sec=5, msec=232
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 142 @ sec=5, msec=265
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 143 @ sec=5, msec=299
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 144 @ sec=5, msec=332
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 145 @ sec=5, msec=366
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 146 @ sec=5, msec=399
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 147 @ sec=5, msec=433
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 148 @ sec=5, msec=466
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 149 @ sec=5, msec=499
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 150 @ sec=5, msec=533
+Mar 24 16:01:59 raspberrypi seqgen: Frame Sampler release 15 @ sec=5, msec=533
+Mar 24 16:01:59 raspberrypi seqgen: Time-stamp with Image Analysis release 5 @ sec=5, msec=533
+Mar 24 16:01:59 raspberrypi seqgen: Time-stamp Image Save to File release 5 @ sec=5, msec=533
+Mar 24 16:01:59 raspberrypi seqgen: Send Time-stamped Image to Remote release 5 @ sec=5, msec=533
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 151 @ sec=5, msec=566
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 152 @ sec=5, msec=600
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 153 @ sec=5, msec=633
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 154 @ sec=5, msec=667
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 155 @ sec=5, msec=700
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 156 @ sec=5, msec=734
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 157 @ sec=5, msec=767
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 158 @ sec=5, msec=801
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 159 @ sec=5, msec=834
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 160 @ sec=5, msec=867
+Mar 24 16:01:59 raspberrypi seqgen: Frame Sampler release 16 @ sec=5, msec=868
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 161 @ sec=5, msec=901
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 162 @ sec=5, msec=934
+Mar 24 16:01:59 raspberrypi seqgen: Sequencer cycle 163 @ sec=5, msec=968
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 164 @ sec=6, msec=1
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 165 @ sec=6, msec=35
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 166 @ sec=6, msec=68
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 167 @ sec=6, msec=102
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 168 @ sec=6, msec=135
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 169 @ sec=6, msec=169
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 170 @ sec=6, msec=202
+Mar 24 16:02:00 raspberrypi seqgen: Frame Sampler release 17 @ sec=6, msec=202
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 171 @ sec=6, msec=236
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 172 @ sec=6, msec=269
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 173 @ sec=6, msec=302
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 174 @ sec=6, msec=336
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 175 @ sec=6, msec=369
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 176 @ sec=6, msec=403
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 177 @ sec=6, msec=436
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 178 @ sec=6, msec=470
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 179 @ sec=6, msec=503
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 180 @ sec=6, msec=537
+Mar 24 16:02:00 raspberrypi seqgen: Time-stamp Image Save to File release 6 @ sec=6, msec=537
+Mar 24 16:02:00 raspberrypi seqgen: Send Time-stamped Image to Remote release 6 @ sec=6, msec=537
+Mar 24 16:02:00 raspberrypi seqgen: Time-stamp with Image Analysis release 6 @ sec=6, msec=537
+Mar 24 16:02:00 raspberrypi seqgen: Frame Sampler release 18 @ sec=6, msec=537
+Mar 24 16:02:00 raspberrypi seqgen: Processed Image Save to File release 3 @ sec=6, msec=537
+Mar 24 16:02:00 raspberrypi seqgen: Difference Image Proc release 3 @ sec=6, msec=537
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 181 @ sec=6, msec=570
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 182 @ sec=6, msec=604
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 183 @ sec=6, msec=637
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 184 @ sec=6, msec=671
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 185 @ sec=6, msec=704
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 186 @ sec=6, msec=737
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 187 @ sec=6, msec=771
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 188 @ sec=6, msec=804
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 189 @ sec=6, msec=838
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 190 @ sec=6, msec=871
+Mar 24 16:02:00 raspberrypi seqgen: Frame Sampler release 19 @ sec=6, msec=871
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 191 @ sec=6, msec=905
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 192 @ sec=6, msec=938
+Mar 24 16:02:00 raspberrypi seqgen: Sequencer cycle 193 @ sec=6, msec=972
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 194 @ sec=7, msec=5
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 195 @ sec=7, msec=39
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 196 @ sec=7, msec=72
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 197 @ sec=7, msec=106
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 198 @ sec=7, msec=139
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 199 @ sec=7, msec=172
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 200 @ sec=7, msec=206
+Mar 24 16:02:01 raspberrypi seqgen: Frame Sampler release 20 @ sec=7, msec=206
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 201 @ sec=7, msec=239
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 202 @ sec=7, msec=273
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 203 @ sec=7, msec=306
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 204 @ sec=7, msec=340
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 205 @ sec=7, msec=373
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 206 @ sec=7, msec=407
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 207 @ sec=7, msec=440
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 208 @ sec=7, msec=474
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 209 @ sec=7, msec=507
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 210 @ sec=7, msec=541
+Mar 24 16:02:01 raspberrypi seqgen: Frame Sampler release 21 @ sec=7, msec=541
+Mar 24 16:02:01 raspberrypi seqgen: Time-stamp Image Save to File release 7 @ sec=7, msec=541
+Mar 24 16:02:01 raspberrypi seqgen: Time-stamp with Image Analysis release 7 @ sec=7, msec=541
+Mar 24 16:02:01 raspberrypi seqgen: Send Time-stamped Image to Remote release 7 @ sec=7, msec=541
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 211 @ sec=7, msec=574
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 212 @ sec=7, msec=608
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 213 @ sec=7, msec=641
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 214 @ sec=7, msec=675
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 215 @ sec=7, msec=708
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 216 @ sec=7, msec=742
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 217 @ sec=7, msec=775
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 218 @ sec=7, msec=809
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 219 @ sec=7, msec=842
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 220 @ sec=7, msec=876
+Mar 24 16:02:01 raspberrypi seqgen: Frame Sampler release 22 @ sec=7, msec=876
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 221 @ sec=7, msec=909
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 222 @ sec=7, msec=942
+Mar 24 16:02:01 raspberrypi seqgen: Sequencer cycle 223 @ sec=7, msec=976
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 224 @ sec=8, msec=9
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 225 @ sec=8, msec=43
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 226 @ sec=8, msec=76
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 227 @ sec=8, msec=110
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 228 @ sec=8, msec=143
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 229 @ sec=8, msec=177
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 230 @ sec=8, msec=210
+Mar 24 16:02:02 raspberrypi seqgen: Frame Sampler release 23 @ sec=8, msec=210
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 231 @ sec=8, msec=244
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 232 @ sec=8, msec=277
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 233 @ sec=8, msec=311
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 234 @ sec=8, msec=344
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 235 @ sec=8, msec=378
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 236 @ sec=8, msec=411
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 237 @ sec=8, msec=445
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 238 @ sec=8, msec=478
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 239 @ sec=8, msec=511
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 240 @ sec=8, msec=545
+Mar 24 16:02:02 raspberrypi seqgen: Frame Sampler release 24 @ sec=8, msec=545
+Mar 24 16:02:02 raspberrypi seqgen: Send Time-stamped Image to Remote release 8 @ sec=8, msec=545
+Mar 24 16:02:02 raspberrypi seqgen: Time-stamp with Image Analysis release 8 @ sec=8, msec=545
+Mar 24 16:02:02 raspberrypi seqgen: Time-stamp Image Save to File release 8 @ sec=8, msec=545
+Mar 24 16:02:02 raspberrypi seqgen: Difference Image Proc release 4 @ sec=8, msec=545
+Mar 24 16:02:02 raspberrypi seqgen: Processed Image Save to File release 4 @ sec=8, msec=545
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 241 @ sec=8, msec=578
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 242 @ sec=8, msec=612
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 243 @ sec=8, msec=645
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 244 @ sec=8, msec=679
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 245 @ sec=8, msec=712
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 246 @ sec=8, msec=746
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 247 @ sec=8, msec=779
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 248 @ sec=8, msec=813
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 249 @ sec=8, msec=846
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 250 @ sec=8, msec=880
+Mar 24 16:02:02 raspberrypi seqgen: Frame Sampler release 25 @ sec=8, msec=880
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 251 @ sec=8, msec=913
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 252 @ sec=8, msec=946
+Mar 24 16:02:02 raspberrypi seqgen: Sequencer cycle 253 @ sec=8, msec=980
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 254 @ sec=9, msec=13
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 255 @ sec=9, msec=47
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 256 @ sec=9, msec=80
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 257 @ sec=9, msec=114
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 258 @ sec=9, msec=147
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 259 @ sec=9, msec=181
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 260 @ sec=9, msec=214
+Mar 24 16:02:03 raspberrypi seqgen: Frame Sampler release 26 @ sec=9, msec=214
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 261 @ sec=9, msec=248
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 262 @ sec=9, msec=281
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 263 @ sec=9, msec=315
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 264 @ sec=9, msec=348
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 265 @ sec=9, msec=381
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 266 @ sec=9, msec=415
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 267 @ sec=9, msec=448
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 268 @ sec=9, msec=482
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 269 @ sec=9, msec=515
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 270 @ sec=9, msec=549
+Mar 24 16:02:03 raspberrypi seqgen: Frame Sampler release 27 @ sec=9, msec=549
+Mar 24 16:02:03 raspberrypi seqgen: Time-stamp with Image Analysis release 9 @ sec=9, msec=549
+Mar 24 16:02:03 raspberrypi seqgen: Time-stamp Image Save to File release 9 @ sec=9, msec=549
+Mar 24 16:02:03 raspberrypi seqgen: Send Time-stamped Image to Remote release 9 @ sec=9, msec=549
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 271 @ sec=9, msec=582
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 272 @ sec=9, msec=616
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 273 @ sec=9, msec=649
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 274 @ sec=9, msec=683
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 275 @ sec=9, msec=716
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 276 @ sec=9, msec=750
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 277 @ sec=9, msec=783
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 278 @ sec=9, msec=816
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 279 @ sec=9, msec=850
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 280 @ sec=9, msec=883
+Mar 24 16:02:03 raspberrypi seqgen: Frame Sampler release 28 @ sec=9, msec=884
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 281 @ sec=9, msec=917
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 282 @ sec=9, msec=950
+Mar 24 16:02:03 raspberrypi seqgen: Sequencer cycle 283 @ sec=9, msec=984
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 284 @ sec=10, msec=17
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 285 @ sec=10, msec=51
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 286 @ sec=10, msec=84
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 287 @ sec=10, msec=118
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 288 @ sec=10, msec=151
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 289 @ sec=10, msec=185
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 290 @ sec=10, msec=218
+Mar 24 16:02:04 raspberrypi seqgen: Frame Sampler release 29 @ sec=10, msec=218
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 291 @ sec=10, msec=252
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 292 @ sec=10, msec=285
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 293 @ sec=10, msec=318
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 294 @ sec=10, msec=352
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 295 @ sec=10, msec=386
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 296 @ sec=10, msec=419
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 297 @ sec=10, msec=453
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 298 @ sec=10, msec=486
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 299 @ sec=10, msec=520
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 300 @ sec=10, msec=553
+Mar 24 16:02:04 raspberrypi seqgen: Time-stamp with Image Analysis release 10 @ sec=10, msec=553
+Mar 24 16:02:04 raspberrypi seqgen: Time-stamp Image Save to File release 10 @ sec=10, msec=553
+Mar 24 16:02:04 raspberrypi seqgen: Frame Sampler release 30 @ sec=10, msec=553
+Mar 24 16:02:04 raspberrypi seqgen: Processed Image Save to File release 5 @ sec=10, msec=553
+Mar 24 16:02:04 raspberrypi seqgen: Send Time-stamped Image to Remote release 10 @ sec=10, msec=553
+Mar 24 16:02:04 raspberrypi seqgen: 10 Sec Tick Debug release 1 @ sec=10, msec=553
+Mar 24 16:02:04 raspberrypi seqgen: Difference Image Proc release 5 @ sec=10, msec=553
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 301 @ sec=10, msec=587
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 302 @ sec=10, msec=620
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 303 @ sec=10, msec=653
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 304 @ sec=10, msec=687
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 305 @ sec=10, msec=720
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 306 @ sec=10, msec=754
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 307 @ sec=10, msec=787
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 308 @ sec=10, msec=821
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 309 @ sec=10, msec=854
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 310 @ sec=10, msec=888
+Mar 24 16:02:04 raspberrypi seqgen: Frame Sampler release 31 @ sec=10, msec=888
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 311 @ sec=10, msec=921
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 312 @ sec=10, msec=954
+Mar 24 16:02:04 raspberrypi seqgen: Sequencer cycle 313 @ sec=10, msec=988
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 314 @ sec=11, msec=21
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 315 @ sec=11, msec=55
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 316 @ sec=11, msec=88
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 317 @ sec=11, msec=122
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 318 @ sec=11, msec=155
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 319 @ sec=11, msec=189
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 320 @ sec=11, msec=222
+Mar 24 16:02:05 raspberrypi seqgen: Frame Sampler release 32 @ sec=11, msec=222
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 321 @ sec=11, msec=256
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 322 @ sec=11, msec=289
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 323 @ sec=11, msec=323
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 324 @ sec=11, msec=356
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 325 @ sec=11, msec=389
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 326 @ sec=11, msec=423
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 327 @ sec=11, msec=456
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 328 @ sec=11, msec=490
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 329 @ sec=11, msec=523
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 330 @ sec=11, msec=557
+Mar 24 16:02:05 raspberrypi seqgen: Frame Sampler release 33 @ sec=11, msec=557
+Mar 24 16:02:05 raspberrypi seqgen: Send Time-stamped Image to Remote release 11 @ sec=11, msec=557
+Mar 24 16:02:05 raspberrypi seqgen: Time-stamp with Image Analysis release 11 @ sec=11, msec=557
+Mar 24 16:02:05 raspberrypi seqgen: Time-stamp Image Save to File release 11 @ sec=11, msec=557
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 331 @ sec=11, msec=590
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 332 @ sec=11, msec=624
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 333 @ sec=11, msec=657
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 334 @ sec=11, msec=691
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 335 @ sec=11, msec=724
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 336 @ sec=11, msec=757
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 337 @ sec=11, msec=791
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 338 @ sec=11, msec=824
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 339 @ sec=11, msec=858
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 340 @ sec=11, msec=891
+Mar 24 16:02:05 raspberrypi seqgen: Frame Sampler release 34 @ sec=11, msec=891
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 341 @ sec=11, msec=925
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 342 @ sec=11, msec=958
+Mar 24 16:02:05 raspberrypi seqgen: Sequencer cycle 343 @ sec=11, msec=992
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 344 @ sec=12, msec=25
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 345 @ sec=12, msec=59
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 346 @ sec=12, msec=92
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 347 @ sec=12, msec=126
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 348 @ sec=12, msec=159
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 349 @ sec=12, msec=193
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 350 @ sec=12, msec=226
+Mar 24 16:02:06 raspberrypi seqgen: Frame Sampler release 35 @ sec=12, msec=226
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 351 @ sec=12, msec=260
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 352 @ sec=12, msec=293
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 353 @ sec=12, msec=327
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 354 @ sec=12, msec=360
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 355 @ sec=12, msec=393
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 356 @ sec=12, msec=427
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 357 @ sec=12, msec=460
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 358 @ sec=12, msec=494
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 359 @ sec=12, msec=527
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 360 @ sec=12, msec=561
+Mar 24 16:02:06 raspberrypi seqgen: Frame Sampler release 36 @ sec=12, msec=561
+Mar 24 16:02:06 raspberrypi seqgen: Send Time-stamped Image to Remote release 12 @ sec=12, msec=561
+Mar 24 16:02:06 raspberrypi seqgen: Time-stamp with Image Analysis release 12 @ sec=12, msec=561
+Mar 24 16:02:06 raspberrypi seqgen: Time-stamp Image Save to File release 12 @ sec=12, msec=561
+Mar 24 16:02:06 raspberrypi seqgen: Processed Image Save to File release 6 @ sec=12, msec=561
+Mar 24 16:02:06 raspberrypi seqgen: Difference Image Proc release 6 @ sec=12, msec=561
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 361 @ sec=12, msec=594
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 362 @ sec=12, msec=628
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 363 @ sec=12, msec=661
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 364 @ sec=12, msec=695
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 365 @ sec=12, msec=728
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 366 @ sec=12, msec=762
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 367 @ sec=12, msec=795
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 368 @ sec=12, msec=829
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 369 @ sec=12, msec=862
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 370 @ sec=12, msec=896
+Mar 24 16:02:06 raspberrypi seqgen: Frame Sampler release 37 @ sec=12, msec=896
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 371 @ sec=12, msec=929
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 372 @ sec=12, msec=962
+Mar 24 16:02:06 raspberrypi seqgen: Sequencer cycle 373 @ sec=12, msec=996
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 374 @ sec=13, msec=29
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 375 @ sec=13, msec=63
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 376 @ sec=13, msec=96
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 377 @ sec=13, msec=130
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 378 @ sec=13, msec=163
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 379 @ sec=13, msec=197
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 380 @ sec=13, msec=230
+Mar 24 16:02:07 raspberrypi seqgen: Frame Sampler release 38 @ sec=13, msec=230
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 381 @ sec=13, msec=264
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 382 @ sec=13, msec=297
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 383 @ sec=13, msec=331
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 384 @ sec=13, msec=364
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 385 @ sec=13, msec=398
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 386 @ sec=13, msec=431
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 387 @ sec=13, msec=465
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 388 @ sec=13, msec=498
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 389 @ sec=13, msec=532
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 390 @ sec=13, msec=565
+Mar 24 16:02:07 raspberrypi seqgen: Frame Sampler release 39 @ sec=13, msec=565
+Mar 24 16:02:07 raspberrypi seqgen: Send Time-stamped Image to Remote release 13 @ sec=13, msec=565
+Mar 24 16:02:07 raspberrypi seqgen: Time-stamp with Image Analysis release 13 @ sec=13, msec=565
+Mar 24 16:02:07 raspberrypi seqgen: Time-stamp Image Save to File release 13 @ sec=13, msec=565
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 391 @ sec=13, msec=599
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 392 @ sec=13, msec=632
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 393 @ sec=13, msec=666
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 394 @ sec=13, msec=699
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 395 @ sec=13, msec=732
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 396 @ sec=13, msec=766
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 397 @ sec=13, msec=799
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 398 @ sec=13, msec=833
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 399 @ sec=13, msec=866
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 400 @ sec=13, msec=900
+Mar 24 16:02:07 raspberrypi seqgen: Frame Sampler release 40 @ sec=13, msec=900
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 401 @ sec=13, msec=933
+Mar 24 16:02:07 raspberrypi seqgen: Sequencer cycle 402 @ sec=13, msec=967
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 403 @ sec=14, msec=0
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 404 @ sec=14, msec=34
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 405 @ sec=14, msec=67
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 406 @ sec=14, msec=101
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 407 @ sec=14, msec=134
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 408 @ sec=14, msec=167
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 409 @ sec=14, msec=201
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 410 @ sec=14, msec=234
+Mar 24 16:02:08 raspberrypi seqgen: Frame Sampler release 41 @ sec=14, msec=235
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 411 @ sec=14, msec=268
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 412 @ sec=14, msec=301
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 413 @ sec=14, msec=335
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 414 @ sec=14, msec=368
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 415 @ sec=14, msec=402
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 416 @ sec=14, msec=435
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 417 @ sec=14, msec=469
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 418 @ sec=14, msec=502
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 419 @ sec=14, msec=536
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 420 @ sec=14, msec=569
+Mar 24 16:02:08 raspberrypi seqgen: Time-stamp with Image Analysis release 14 @ sec=14, msec=569
+Mar 24 16:02:08 raspberrypi seqgen: Frame Sampler release 42 @ sec=14, msec=569
+Mar 24 16:02:08 raspberrypi seqgen: Processed Image Save to File release 7 @ sec=14, msec=569
+Mar 24 16:02:08 raspberrypi seqgen: Time-stamp Image Save to File release 14 @ sec=14, msec=569
+Mar 24 16:02:08 raspberrypi seqgen: Send Time-stamped Image to Remote release 14 @ sec=14, msec=569
+Mar 24 16:02:08 raspberrypi seqgen: Difference Image Proc release 7 @ sec=14, msec=569
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 421 @ sec=14, msec=603
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 422 @ sec=14, msec=636
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 423 @ sec=14, msec=670
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 424 @ sec=14, msec=703
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 425 @ sec=14, msec=737
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 426 @ sec=14, msec=770
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 427 @ sec=14, msec=803
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 428 @ sec=14, msec=837
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 429 @ sec=14, msec=870
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 430 @ sec=14, msec=904
+Mar 24 16:02:08 raspberrypi seqgen: Frame Sampler release 43 @ sec=14, msec=904
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 431 @ sec=14, msec=937
+Mar 24 16:02:08 raspberrypi seqgen: Sequencer cycle 432 @ sec=14, msec=971
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 433 @ sec=15, msec=4
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 434 @ sec=15, msec=38
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 435 @ sec=15, msec=71
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 436 @ sec=15, msec=105
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 437 @ sec=15, msec=138
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 438 @ sec=15, msec=171
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 439 @ sec=15, msec=205
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 440 @ sec=15, msec=238
+Mar 24 16:02:09 raspberrypi seqgen: Frame Sampler release 44 @ sec=15, msec=238
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 441 @ sec=15, msec=272
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 442 @ sec=15, msec=305
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 443 @ sec=15, msec=339
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 444 @ sec=15, msec=372
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 445 @ sec=15, msec=406
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 446 @ sec=15, msec=439
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 447 @ sec=15, msec=473
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 448 @ sec=15, msec=506
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 449 @ sec=15, msec=539
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 450 @ sec=15, msec=573
+Mar 24 16:02:09 raspberrypi seqgen: Frame Sampler release 45 @ sec=15, msec=573
+Mar 24 16:02:09 raspberrypi seqgen: Time-stamp with Image Analysis release 15 @ sec=15, msec=573
+Mar 24 16:02:09 raspberrypi seqgen: Send Time-stamped Image to Remote release 15 @ sec=15, msec=573
+Mar 24 16:02:09 raspberrypi seqgen: Time-stamp Image Save to File release 15 @ sec=15, msec=573
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 451 @ sec=15, msec=606
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 452 @ sec=15, msec=640
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 453 @ sec=15, msec=673
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 454 @ sec=15, msec=707
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 455 @ sec=15, msec=740
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 456 @ sec=15, msec=774
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 457 @ sec=15, msec=807
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 458 @ sec=15, msec=841
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 459 @ sec=15, msec=874
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 460 @ sec=15, msec=908
+Mar 24 16:02:09 raspberrypi seqgen: Frame Sampler release 46 @ sec=15, msec=908
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 461 @ sec=15, msec=941
+Mar 24 16:02:09 raspberrypi seqgen: Sequencer cycle 462 @ sec=15, msec=974
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 463 @ sec=16, msec=8
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 464 @ sec=16, msec=41
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 465 @ sec=16, msec=75
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 466 @ sec=16, msec=108
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 467 @ sec=16, msec=142
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 468 @ sec=16, msec=175
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 469 @ sec=16, msec=209
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 470 @ sec=16, msec=242
+Mar 24 16:02:10 raspberrypi seqgen: Frame Sampler release 47 @ sec=16, msec=242
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 471 @ sec=16, msec=276
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 472 @ sec=16, msec=309
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 473 @ sec=16, msec=343
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 474 @ sec=16, msec=376
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 475 @ sec=16, msec=410
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 476 @ sec=16, msec=443
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 477 @ sec=16, msec=477
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 478 @ sec=16, msec=510
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 479 @ sec=16, msec=544
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 480 @ sec=16, msec=577
+Mar 24 16:02:10 raspberrypi seqgen: Time-stamp Image Save to File release 16 @ sec=16, msec=577
+Mar 24 16:02:10 raspberrypi seqgen: Time-stamp with Image Analysis release 16 @ sec=16, msec=577
+Mar 24 16:02:10 raspberrypi seqgen: Frame Sampler release 48 @ sec=16, msec=577
+Mar 24 16:02:10 raspberrypi seqgen: Difference Image Proc release 8 @ sec=16, msec=577
+Mar 24 16:02:10 raspberrypi seqgen: Send Time-stamped Image to Remote release 16 @ sec=16, msec=577
+Mar 24 16:02:10 raspberrypi seqgen: Processed Image Save to File release 8 @ sec=16, msec=577
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 481 @ sec=16, msec=611
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 482 @ sec=16, msec=644
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 483 @ sec=16, msec=678
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 484 @ sec=16, msec=711
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 485 @ sec=16, msec=745
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 486 @ sec=16, msec=778
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 487 @ sec=16, msec=812
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 488 @ sec=16, msec=845
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 489 @ sec=16, msec=878
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 490 @ sec=16, msec=912
+Mar 24 16:02:10 raspberrypi seqgen: Frame Sampler release 49 @ sec=16, msec=912
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 491 @ sec=16, msec=945
+Mar 24 16:02:10 raspberrypi seqgen: Sequencer cycle 492 @ sec=16, msec=979
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 493 @ sec=17, msec=12
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 494 @ sec=17, msec=46
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 495 @ sec=17, msec=79
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 496 @ sec=17, msec=113
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 497 @ sec=17, msec=146
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 498 @ sec=17, msec=180
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 499 @ sec=17, msec=213
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 500 @ sec=17, msec=247
+Mar 24 16:02:11 raspberrypi seqgen: Frame Sampler release 50 @ sec=17, msec=247
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 501 @ sec=17, msec=280
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 502 @ sec=17, msec=313
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 503 @ sec=17, msec=347
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 504 @ sec=17, msec=380
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 505 @ sec=17, msec=414
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 506 @ sec=17, msec=447
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 507 @ sec=17, msec=481
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 508 @ sec=17, msec=514
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 509 @ sec=17, msec=548
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 510 @ sec=17, msec=581
+Mar 24 16:02:11 raspberrypi seqgen: Frame Sampler release 51 @ sec=17, msec=581
+Mar 24 16:02:11 raspberrypi seqgen: Send Time-stamped Image to Remote release 17 @ sec=17, msec=581
+Mar 24 16:02:11 raspberrypi seqgen: Time-stamp with Image Analysis release 17 @ sec=17, msec=581
+Mar 24 16:02:11 raspberrypi seqgen: Time-stamp Image Save to File release 17 @ sec=17, msec=581
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 511 @ sec=17, msec=615
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 512 @ sec=17, msec=648
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 513 @ sec=17, msec=682
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 514 @ sec=17, msec=715
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 515 @ sec=17, msec=748
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 516 @ sec=17, msec=782
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 517 @ sec=17, msec=815
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 518 @ sec=17, msec=849
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 519 @ sec=17, msec=882
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 520 @ sec=17, msec=916
+Mar 24 16:02:11 raspberrypi seqgen: Frame Sampler release 52 @ sec=17, msec=916
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 521 @ sec=17, msec=949
+Mar 24 16:02:11 raspberrypi seqgen: Sequencer cycle 522 @ sec=17, msec=983
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 523 @ sec=18, msec=16
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 524 @ sec=18, msec=50
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 525 @ sec=18, msec=83
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 526 @ sec=18, msec=117
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 527 @ sec=18, msec=150
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 528 @ sec=18, msec=183
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 529 @ sec=18, msec=217
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 530 @ sec=18, msec=250
+Mar 24 16:02:12 raspberrypi seqgen: Frame Sampler release 53 @ sec=18, msec=250
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 531 @ sec=18, msec=284
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 532 @ sec=18, msec=317
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 533 @ sec=18, msec=351
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 534 @ sec=18, msec=384
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 535 @ sec=18, msec=418
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 536 @ sec=18, msec=451
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 537 @ sec=18, msec=485
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 538 @ sec=18, msec=518
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 539 @ sec=18, msec=552
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 540 @ sec=18, msec=585
+Mar 24 16:02:12 raspberrypi seqgen: Time-stamp Image Save to File release 18 @ sec=18, msec=585
+Mar 24 16:02:12 raspberrypi seqgen: Send Time-stamped Image to Remote release 18 @ sec=18, msec=585
+Mar 24 16:02:12 raspberrypi seqgen: Difference Image Proc release 9 @ sec=18, msec=585
+Mar 24 16:02:12 raspberrypi seqgen: Frame Sampler release 54 @ sec=18, msec=585
+Mar 24 16:02:12 raspberrypi seqgen: Time-stamp with Image Analysis release 18 @ sec=18, msec=585
+Mar 24 16:02:12 raspberrypi seqgen: Processed Image Save to File release 9 @ sec=18, msec=585
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 541 @ sec=18, msec=619
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 542 @ sec=18, msec=652
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 543 @ sec=18, msec=685
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 544 @ sec=18, msec=719
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 545 @ sec=18, msec=752
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 546 @ sec=18, msec=786
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 547 @ sec=18, msec=819
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 548 @ sec=18, msec=853
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 549 @ sec=18, msec=886
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 550 @ sec=18, msec=920
+Mar 24 16:02:12 raspberrypi seqgen: Frame Sampler release 55 @ sec=18, msec=920
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 551 @ sec=18, msec=953
+Mar 24 16:02:12 raspberrypi seqgen: Sequencer cycle 552 @ sec=18, msec=987
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 553 @ sec=19, msec=20
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 554 @ sec=19, msec=53
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 555 @ sec=19, msec=87
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 556 @ sec=19, msec=120
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 557 @ sec=19, msec=154
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 558 @ sec=19, msec=187
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 559 @ sec=19, msec=221
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 560 @ sec=19, msec=254
+Mar 24 16:02:13 raspberrypi seqgen: Frame Sampler release 56 @ sec=19, msec=254
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 561 @ sec=19, msec=288
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 562 @ sec=19, msec=321
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 563 @ sec=19, msec=355
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 564 @ sec=19, msec=388
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 565 @ sec=19, msec=422
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 566 @ sec=19, msec=455
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 567 @ sec=19, msec=489
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 568 @ sec=19, msec=522
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 569 @ sec=19, msec=556
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 570 @ sec=19, msec=589
+Mar 24 16:02:13 raspberrypi seqgen: Frame Sampler release 57 @ sec=19, msec=589
+Mar 24 16:02:13 raspberrypi seqgen: Send Time-stamped Image to Remote release 19 @ sec=19, msec=589
+Mar 24 16:02:13 raspberrypi seqgen: Time-stamp with Image Analysis release 19 @ sec=19, msec=589
+Mar 24 16:02:13 raspberrypi seqgen: Time-stamp Image Save to File release 19 @ sec=19, msec=589
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 571 @ sec=19, msec=623
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 572 @ sec=19, msec=656
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 573 @ sec=19, msec=689
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 574 @ sec=19, msec=723
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 575 @ sec=19, msec=756
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 576 @ sec=19, msec=790
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 577 @ sec=19, msec=823
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 578 @ sec=19, msec=857
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 579 @ sec=19, msec=890
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 580 @ sec=19, msec=924
+Mar 24 16:02:13 raspberrypi seqgen: Frame Sampler release 58 @ sec=19, msec=924
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 581 @ sec=19, msec=957
+Mar 24 16:02:13 raspberrypi seqgen: Sequencer cycle 582 @ sec=19, msec=991
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 583 @ sec=20, msec=24
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 584 @ sec=20, msec=58
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 585 @ sec=20, msec=91
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 586 @ sec=20, msec=124
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 587 @ sec=20, msec=158
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 588 @ sec=20, msec=191
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 589 @ sec=20, msec=225
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 590 @ sec=20, msec=258
+Mar 24 16:02:14 raspberrypi seqgen: Frame Sampler release 59 @ sec=20, msec=258
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 591 @ sec=20, msec=292
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 592 @ sec=20, msec=325
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 593 @ sec=20, msec=359
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 594 @ sec=20, msec=392
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 595 @ sec=20, msec=426
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 596 @ sec=20, msec=459
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 597 @ sec=20, msec=493
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 598 @ sec=20, msec=526
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 599 @ sec=20, msec=559
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 600 @ sec=20, msec=593
+Mar 24 16:02:14 raspberrypi seqgen: Time-stamp with Image Analysis release 20 @ sec=20, msec=593
+Mar 24 16:02:14 raspberrypi seqgen: Send Time-stamped Image to Remote release 20 @ sec=20, msec=593
+Mar 24 16:02:14 raspberrypi seqgen: Frame Sampler release 60 @ sec=20, msec=593
+Mar 24 16:02:14 raspberrypi seqgen: Processed Image Save to File release 10 @ sec=20, msec=593
+Mar 24 16:02:14 raspberrypi seqgen: Difference Image Proc release 10 @ sec=20, msec=593
+Mar 24 16:02:14 raspberrypi seqgen: Time-stamp Image Save to File release 20 @ sec=20, msec=593
+Mar 24 16:02:14 raspberrypi seqgen: 10 Sec Tick Debug release 2 @ sec=20, msec=593
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 601 @ sec=20, msec=626
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 602 @ sec=20, msec=660
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 603 @ sec=20, msec=693
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 604 @ sec=20, msec=727
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 605 @ sec=20, msec=760
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 606 @ sec=20, msec=794
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 607 @ sec=20, msec=827
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 608 @ sec=20, msec=861
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 609 @ sec=20, msec=894
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 610 @ sec=20, msec=928
+Mar 24 16:02:14 raspberrypi seqgen: Frame Sampler release 61 @ sec=20, msec=928
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 611 @ sec=20, msec=961
+Mar 24 16:02:14 raspberrypi seqgen: Sequencer cycle 612 @ sec=20, msec=994
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 613 @ sec=21, msec=28
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 614 @ sec=21, msec=61
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 615 @ sec=21, msec=95
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 616 @ sec=21, msec=128
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 617 @ sec=21, msec=162
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 618 @ sec=21, msec=195
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 619 @ sec=21, msec=229
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 620 @ sec=21, msec=262
+Mar 24 16:02:15 raspberrypi seqgen: Frame Sampler release 62 @ sec=21, msec=262
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 621 @ sec=21, msec=296
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 622 @ sec=21, msec=329
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 623 @ sec=21, msec=362
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 624 @ sec=21, msec=396
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 625 @ sec=21, msec=429
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 626 @ sec=21, msec=463
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 627 @ sec=21, msec=496
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 628 @ sec=21, msec=530
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 629 @ sec=21, msec=563
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 630 @ sec=21, msec=597
+Mar 24 16:02:15 raspberrypi seqgen: Frame Sampler release 63 @ sec=21, msec=597
+Mar 24 16:02:15 raspberrypi seqgen: Time-stamp with Image Analysis release 21 @ sec=21, msec=597
+Mar 24 16:02:15 raspberrypi seqgen: Time-stamp Image Save to File release 21 @ sec=21, msec=597
+Mar 24 16:02:15 raspberrypi seqgen: Send Time-stamped Image to Remote release 21 @ sec=21, msec=597
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 631 @ sec=21, msec=630
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 632 @ sec=21, msec=664
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 633 @ sec=21, msec=697
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 634 @ sec=21, msec=731
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 635 @ sec=21, msec=764
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 636 @ sec=21, msec=798
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 637 @ sec=21, msec=831
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 638 @ sec=21, msec=865
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 639 @ sec=21, msec=898
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 640 @ sec=21, msec=931
+Mar 24 16:02:15 raspberrypi seqgen: Frame Sampler release 64 @ sec=21, msec=932
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 641 @ sec=21, msec=965
+Mar 24 16:02:15 raspberrypi seqgen: Sequencer cycle 642 @ sec=21, msec=998
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 643 @ sec=22, msec=32
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 644 @ sec=22, msec=65
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 645 @ sec=22, msec=99
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 646 @ sec=22, msec=132
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 647 @ sec=22, msec=166
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 648 @ sec=22, msec=199
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 649 @ sec=22, msec=232
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 650 @ sec=22, msec=266
+Mar 24 16:02:16 raspberrypi seqgen: Frame Sampler release 65 @ sec=22, msec=266
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 651 @ sec=22, msec=299
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 652 @ sec=22, msec=333
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 653 @ sec=22, msec=367
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 654 @ sec=22, msec=400
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 655 @ sec=22, msec=434
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 656 @ sec=22, msec=467
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 657 @ sec=22, msec=501
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 658 @ sec=22, msec=534
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 659 @ sec=22, msec=567
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 660 @ sec=22, msec=601
+Mar 24 16:02:16 raspberrypi seqgen: Frame Sampler release 66 @ sec=22, msec=601
+Mar 24 16:02:16 raspberrypi seqgen: Send Time-stamped Image to Remote release 22 @ sec=22, msec=601
+Mar 24 16:02:16 raspberrypi seqgen: Time-stamp with Image Analysis release 22 @ sec=22, msec=601
+Mar 24 16:02:16 raspberrypi seqgen: Time-stamp Image Save to File release 22 @ sec=22, msec=601
+Mar 24 16:02:16 raspberrypi seqgen: Processed Image Save to File release 11 @ sec=22, msec=601
+Mar 24 16:02:16 raspberrypi seqgen: Difference Image Proc release 11 @ sec=22, msec=601
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 661 @ sec=22, msec=634
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 662 @ sec=22, msec=668
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 663 @ sec=22, msec=701
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 664 @ sec=22, msec=735
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 665 @ sec=22, msec=768
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 666 @ sec=22, msec=802
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 667 @ sec=22, msec=835
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 668 @ sec=22, msec=869
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 669 @ sec=22, msec=902
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 670 @ sec=22, msec=936
+Mar 24 16:02:16 raspberrypi seqgen: Frame Sampler release 67 @ sec=22, msec=936
+Mar 24 16:02:16 raspberrypi seqgen: Sequencer cycle 671 @ sec=22, msec=969
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 672 @ sec=23, msec=3
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 673 @ sec=23, msec=36
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 674 @ sec=23, msec=69
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 675 @ sec=23, msec=103
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 676 @ sec=23, msec=136
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 677 @ sec=23, msec=170
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 678 @ sec=23, msec=203
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 679 @ sec=23, msec=237
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 680 @ sec=23, msec=270
+Mar 24 16:02:17 raspberrypi seqgen: Frame Sampler release 68 @ sec=23, msec=270
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 681 @ sec=23, msec=304
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 682 @ sec=23, msec=337
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 683 @ sec=23, msec=371
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 684 @ sec=23, msec=404
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 685 @ sec=23, msec=438
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 686 @ sec=23, msec=471
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 687 @ sec=23, msec=504
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 688 @ sec=23, msec=538
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 689 @ sec=23, msec=571
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 690 @ sec=23, msec=605
+Mar 24 16:02:17 raspberrypi seqgen: Frame Sampler release 69 @ sec=23, msec=605
+Mar 24 16:02:17 raspberrypi seqgen: Time-stamp with Image Analysis release 23 @ sec=23, msec=605
+Mar 24 16:02:17 raspberrypi seqgen: Send Time-stamped Image to Remote release 23 @ sec=23, msec=605
+Mar 24 16:02:17 raspberrypi seqgen: Time-stamp Image Save to File release 23 @ sec=23, msec=605
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 691 @ sec=23, msec=638
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 692 @ sec=23, msec=672
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 693 @ sec=23, msec=705
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 694 @ sec=23, msec=739
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 695 @ sec=23, msec=772
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 696 @ sec=23, msec=806
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 697 @ sec=23, msec=839
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 698 @ sec=23, msec=872
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 699 @ sec=23, msec=906
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 700 @ sec=23, msec=939
+Mar 24 16:02:17 raspberrypi seqgen: Frame Sampler release 70 @ sec=23, msec=940
+Mar 24 16:02:17 raspberrypi seqgen: Sequencer cycle 701 @ sec=23, msec=973
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 702 @ sec=24, msec=6
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 703 @ sec=24, msec=40
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 704 @ sec=24, msec=73
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 705 @ sec=24, msec=107
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 706 @ sec=24, msec=140
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 707 @ sec=24, msec=174
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 708 @ sec=24, msec=207
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 709 @ sec=24, msec=241
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 710 @ sec=24, msec=274
+Mar 24 16:02:18 raspberrypi seqgen: Frame Sampler release 71 @ sec=24, msec=274
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 711 @ sec=24, msec=307
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 712 @ sec=24, msec=341
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 713 @ sec=24, msec=374
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 714 @ sec=24, msec=408
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 715 @ sec=24, msec=441
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 716 @ sec=24, msec=475
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 717 @ sec=24, msec=508
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 718 @ sec=24, msec=542
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 719 @ sec=24, msec=575
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 720 @ sec=24, msec=609
+Mar 24 16:02:18 raspberrypi seqgen: Time-stamp with Image Analysis release 24 @ sec=24, msec=609
+Mar 24 16:02:18 raspberrypi seqgen: Frame Sampler release 72 @ sec=24, msec=609
+Mar 24 16:02:18 raspberrypi seqgen: Difference Image Proc release 12 @ sec=24, msec=609
+Mar 24 16:02:18 raspberrypi seqgen: Send Time-stamped Image to Remote release 24 @ sec=24, msec=609
+Mar 24 16:02:18 raspberrypi seqgen: Processed Image Save to File release 12 @ sec=24, msec=609
+Mar 24 16:02:18 raspberrypi seqgen: Time-stamp Image Save to File release 24 @ sec=24, msec=609
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 721 @ sec=24, msec=642
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 722 @ sec=24, msec=676
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 723 @ sec=24, msec=709
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 724 @ sec=24, msec=743
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 725 @ sec=24, msec=776
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 726 @ sec=24, msec=810
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 727 @ sec=24, msec=843
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 728 @ sec=24, msec=876
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 729 @ sec=24, msec=910
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 730 @ sec=24, msec=943
+Mar 24 16:02:18 raspberrypi seqgen: Frame Sampler release 73 @ sec=24, msec=943
+Mar 24 16:02:18 raspberrypi seqgen: Sequencer cycle 731 @ sec=24, msec=977
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 732 @ sec=25, msec=10
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 733 @ sec=25, msec=44
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 734 @ sec=25, msec=77
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 735 @ sec=25, msec=111
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 736 @ sec=25, msec=144
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 737 @ sec=25, msec=178
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 738 @ sec=25, msec=211
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 739 @ sec=25, msec=245
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 740 @ sec=25, msec=278
+Mar 24 16:02:19 raspberrypi seqgen: Frame Sampler release 74 @ sec=25, msec=278
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 741 @ sec=25, msec=312
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 742 @ sec=25, msec=345
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 743 @ sec=25, msec=379
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 744 @ sec=25, msec=412
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 745 @ sec=25, msec=446
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 746 @ sec=25, msec=479
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 747 @ sec=25, msec=513
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 748 @ sec=25, msec=546
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 749 @ sec=25, msec=580
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 750 @ sec=25, msec=613
+Mar 24 16:02:19 raspberrypi seqgen: Frame Sampler release 75 @ sec=25, msec=613
+Mar 24 16:02:19 raspberrypi seqgen: Send Time-stamped Image to Remote release 25 @ sec=25, msec=613
+Mar 24 16:02:19 raspberrypi seqgen: Time-stamp with Image Analysis release 25 @ sec=25, msec=613
+Mar 24 16:02:19 raspberrypi seqgen: Time-stamp Image Save to File release 25 @ sec=25, msec=613
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 751 @ sec=25, msec=647
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 752 @ sec=25, msec=680
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 753 @ sec=25, msec=714
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 754 @ sec=25, msec=747
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 755 @ sec=25, msec=780
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 756 @ sec=25, msec=814
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 757 @ sec=25, msec=847
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 758 @ sec=25, msec=881
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 759 @ sec=25, msec=914
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 760 @ sec=25, msec=948
+Mar 24 16:02:19 raspberrypi seqgen: Frame Sampler release 76 @ sec=25, msec=948
+Mar 24 16:02:19 raspberrypi seqgen: Sequencer cycle 761 @ sec=25, msec=981
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 762 @ sec=26, msec=15
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 763 @ sec=26, msec=48
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 764 @ sec=26, msec=82
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 765 @ sec=26, msec=115
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 766 @ sec=26, msec=149
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 767 @ sec=26, msec=182
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 768 @ sec=26, msec=215
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 769 @ sec=26, msec=249
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 770 @ sec=26, msec=282
+Mar 24 16:02:20 raspberrypi seqgen: Frame Sampler release 77 @ sec=26, msec=283
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 771 @ sec=26, msec=316
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 772 @ sec=26, msec=349
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 773 @ sec=26, msec=383
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 774 @ sec=26, msec=416
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 775 @ sec=26, msec=450
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 776 @ sec=26, msec=483
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 777 @ sec=26, msec=517
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 778 @ sec=26, msec=550
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 779 @ sec=26, msec=584
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 780 @ sec=26, msec=617
+Mar 24 16:02:20 raspberrypi seqgen: Frame Sampler release 78 @ sec=26, msec=617
+Mar 24 16:02:20 raspberrypi seqgen: Send Time-stamped Image to Remote release 26 @ sec=26, msec=617
+Mar 24 16:02:20 raspberrypi seqgen: Time-stamp with Image Analysis release 26 @ sec=26, msec=617
+Mar 24 16:02:20 raspberrypi seqgen: Time-stamp Image Save to File release 26 @ sec=26, msec=617
+Mar 24 16:02:20 raspberrypi seqgen: Difference Image Proc release 13 @ sec=26, msec=617
+Mar 24 16:02:20 raspberrypi seqgen: Processed Image Save to File release 13 @ sec=26, msec=617
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 781 @ sec=26, msec=650
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 782 @ sec=26, msec=684
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 783 @ sec=26, msec=717
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 784 @ sec=26, msec=751
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 785 @ sec=26, msec=784
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 786 @ sec=26, msec=818
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 787 @ sec=26, msec=851
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 788 @ sec=26, msec=885
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 789 @ sec=26, msec=918
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 790 @ sec=26, msec=952
+Mar 24 16:02:20 raspberrypi seqgen: Frame Sampler release 79 @ sec=26, msec=952
+Mar 24 16:02:20 raspberrypi seqgen: Sequencer cycle 791 @ sec=26, msec=985
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 792 @ sec=27, msec=18
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 793 @ sec=27, msec=52
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 794 @ sec=27, msec=85
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 795 @ sec=27, msec=119
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 796 @ sec=27, msec=152
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 797 @ sec=27, msec=186
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 798 @ sec=27, msec=219
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 799 @ sec=27, msec=253
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 800 @ sec=27, msec=286
+Mar 24 16:02:21 raspberrypi seqgen: Frame Sampler release 80 @ sec=27, msec=286
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 801 @ sec=27, msec=320
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 802 @ sec=27, msec=353
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 803 @ sec=27, msec=386
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 804 @ sec=27, msec=420
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 805 @ sec=27, msec=453
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 806 @ sec=27, msec=487
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 807 @ sec=27, msec=520
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 808 @ sec=27, msec=554
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 809 @ sec=27, msec=587
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 810 @ sec=27, msec=621
+Mar 24 16:02:21 raspberrypi seqgen: Frame Sampler release 81 @ sec=27, msec=621
+Mar 24 16:02:21 raspberrypi seqgen: Time-stamp Image Save to File release 27 @ sec=27, msec=621
+Mar 24 16:02:21 raspberrypi seqgen: Send Time-stamped Image to Remote release 27 @ sec=27, msec=621
+Mar 24 16:02:21 raspberrypi seqgen: Time-stamp with Image Analysis release 27 @ sec=27, msec=621
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 811 @ sec=27, msec=654
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 812 @ sec=27, msec=688
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 813 @ sec=27, msec=721
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 814 @ sec=27, msec=754
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 815 @ sec=27, msec=788
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 816 @ sec=27, msec=821
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 817 @ sec=27, msec=855
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 818 @ sec=27, msec=888
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 819 @ sec=27, msec=922
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 820 @ sec=27, msec=955
+Mar 24 16:02:21 raspberrypi seqgen: Frame Sampler release 82 @ sec=27, msec=955
+Mar 24 16:02:21 raspberrypi seqgen: Sequencer cycle 821 @ sec=27, msec=989
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 822 @ sec=28, msec=22
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 823 @ sec=28, msec=56
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 824 @ sec=28, msec=89
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 825 @ sec=28, msec=122
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 826 @ sec=28, msec=156
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 827 @ sec=28, msec=189
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 828 @ sec=28, msec=223
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 829 @ sec=28, msec=256
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 830 @ sec=28, msec=290
+Mar 24 16:02:22 raspberrypi seqgen: Frame Sampler release 83 @ sec=28, msec=290
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 831 @ sec=28, msec=323
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 832 @ sec=28, msec=357
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 833 @ sec=28, msec=390
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 834 @ sec=28, msec=424
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 835 @ sec=28, msec=457
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 836 @ sec=28, msec=491
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 837 @ sec=28, msec=524
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 838 @ sec=28, msec=558
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 839 @ sec=28, msec=591
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 840 @ sec=28, msec=625
+Mar 24 16:02:22 raspberrypi seqgen: Time-stamp with Image Analysis release 28 @ sec=28, msec=625
+Mar 24 16:02:22 raspberrypi seqgen: Frame Sampler release 84 @ sec=28, msec=625
+Mar 24 16:02:22 raspberrypi seqgen: Send Time-stamped Image to Remote release 28 @ sec=28, msec=625
+Mar 24 16:02:22 raspberrypi seqgen: Time-stamp Image Save to File release 28 @ sec=28, msec=625
+Mar 24 16:02:22 raspberrypi seqgen: Difference Image Proc release 14 @ sec=28, msec=625
+Mar 24 16:02:22 raspberrypi seqgen: Processed Image Save to File release 14 @ sec=28, msec=625
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 841 @ sec=28, msec=658
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 842 @ sec=28, msec=692
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 843 @ sec=28, msec=725
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 844 @ sec=28, msec=759
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 845 @ sec=28, msec=792
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 846 @ sec=28, msec=826
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 847 @ sec=28, msec=859
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 848 @ sec=28, msec=892
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 849 @ sec=28, msec=926
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 850 @ sec=28, msec=959
+Mar 24 16:02:22 raspberrypi seqgen: Frame Sampler release 85 @ sec=28, msec=960
+Mar 24 16:02:22 raspberrypi seqgen: Sequencer cycle 851 @ sec=28, msec=993
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 852 @ sec=29, msec=26
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 853 @ sec=29, msec=60
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 854 @ sec=29, msec=93
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 855 @ sec=29, msec=127
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 856 @ sec=29, msec=160
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 857 @ sec=29, msec=194
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 858 @ sec=29, msec=227
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 859 @ sec=29, msec=261
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 860 @ sec=29, msec=294
+Mar 24 16:02:23 raspberrypi seqgen: Frame Sampler release 86 @ sec=29, msec=294
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 861 @ sec=29, msec=327
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 862 @ sec=29, msec=361
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 863 @ sec=29, msec=394
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 864 @ sec=29, msec=428
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 865 @ sec=29, msec=461
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 866 @ sec=29, msec=495
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 867 @ sec=29, msec=528
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 868 @ sec=29, msec=562
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 869 @ sec=29, msec=595
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 870 @ sec=29, msec=629
+Mar 24 16:02:23 raspberrypi seqgen: Frame Sampler release 87 @ sec=29, msec=629
+Mar 24 16:02:23 raspberrypi seqgen: Send Time-stamped Image to Remote release 29 @ sec=29, msec=629
+Mar 24 16:02:23 raspberrypi seqgen: Time-stamp with Image Analysis release 29 @ sec=29, msec=629
+Mar 24 16:02:23 raspberrypi seqgen: Time-stamp Image Save to File release 29 @ sec=29, msec=629
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 871 @ sec=29, msec=662
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 872 @ sec=29, msec=696
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 873 @ sec=29, msec=729
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 874 @ sec=29, msec=763
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 875 @ sec=29, msec=796
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 876 @ sec=29, msec=829
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 877 @ sec=29, msec=863
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 878 @ sec=29, msec=896
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 879 @ sec=29, msec=930
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 880 @ sec=29, msec=963
+Mar 24 16:02:23 raspberrypi seqgen: Frame Sampler release 88 @ sec=29, msec=963
+Mar 24 16:02:23 raspberrypi seqgen: Sequencer cycle 881 @ sec=29, msec=997
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 882 @ sec=30, msec=30
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 883 @ sec=30, msec=64
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 884 @ sec=30, msec=97
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 885 @ sec=30, msec=131
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 886 @ sec=30, msec=164
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 887 @ sec=30, msec=198
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 888 @ sec=30, msec=231
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 889 @ sec=30, msec=264
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 890 @ sec=30, msec=298
+Mar 24 16:02:24 raspberrypi seqgen: Frame Sampler release 89 @ sec=30, msec=298
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 891 @ sec=30, msec=331
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 892 @ sec=30, msec=365
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 893 @ sec=30, msec=398
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 894 @ sec=30, msec=432
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 895 @ sec=30, msec=465
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 896 @ sec=30, msec=499
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 897 @ sec=30, msec=532
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 898 @ sec=30, msec=566
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 899 @ sec=30, msec=599
+Mar 24 16:02:24 raspberrypi seqgen: Sequencer cycle 900 @ sec=30, msec=633
+Mar 24 16:02:24 raspberrypi seqgen: Time-stamp Image Save to File release 30 @ sec=30, msec=633
+Mar 24 16:02:24 raspberrypi seqgen: Frame Sampler release 90 @ sec=30, msec=633
+Mar 24 16:02:24 raspberrypi seqgen: Time-stamp with Image Analysis release 30 @ sec=30, msec=633
+Mar 24 16:02:24 raspberrypi seqgen: Processed Image Save to File release 15 @ sec=30, msec=633
+Mar 24 16:02:24 raspberrypi seqgen: Difference Image Proc release 15 @ sec=30, msec=633
+Mar 24 16:02:24 raspberrypi seqgen: Send Time-stamped Image to Remote release 30 @ sec=30, msec=633
+Mar 24 16:02:24 raspberrypi seqgen: 10 Sec Tick Debug release 3 @ sec=30, msec=633
